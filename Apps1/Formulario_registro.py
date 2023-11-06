@@ -134,6 +134,7 @@ class RegistroApp:
 
     # Ponemos un botón para la limpieza de los campos.
     def limpiar_campos(self):
+        self.id_a_modificar = None
         self.nombre_entry.delete(0,END)
         self.apellido_entry.delete(0,END)
         self.dni_entry.delete(0,END)

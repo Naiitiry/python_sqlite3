@@ -1,6 +1,7 @@
 import sqlite3
 from tkinter import *
 from tkinter import messagebox
+from tkinter import ttk
 
 class FerreAstro:
     '''
@@ -87,6 +88,9 @@ class FerreAstro:
         self.buscar_button = Button(root,text="Buscar",command=self.buscar)
         self.buscar_button.pack()
 
+        self.buscar_categoria_button = Button(root, text="Buscar por Categoría", command=self.buscar_por_categoria)
+        self.buscar_categoria_button.pack()
+
         self.limpiar_button = Button(root,text="Limpiar campos",command=self.limpiar_campos)
         self.limpiar_button.pack()
 
@@ -121,6 +125,8 @@ class FerreAstro:
 
 # ------------ FUNCIONES ------------
 
+    # ------------ FUNCION REGISTRAR ------------
+
     def registrar(self):
         nombre_del_producto = self.nombre_del_producto_entry.get()
         descripcion = self.descripcion_entry.get()
@@ -154,14 +160,17 @@ class FerreAstro:
         self.categoria_entry.delete(0,END)
         self.notas_adicionales_entry.delete(0,END)
 
+    # ------------ FUNCION ACTUALIZAR ------------
 
     def actualizar(self):
         pass
 
+    # ------------ FUNCION BUSCAR ------------
+
     def buscar(self):
-        categoria = self.categoria_entry.get()
+        nombre_del_producto = self.nombre_del_producto_entry.get()
         cursor = self.conn.cursor()
-        cursor.execute("SELECT id,nombre_del_producto,descripcion,proveedor,precio_de_compra,fecha_de_compra,precio_de_venta,stock,ubicacion_asignada,punto_de_reorden,numero_de_serie,categoria,notas_adicionales WHERE categoria=?",(categoria,))
+        cursor.execute("SELECT id,nombre_del_producto,descripcion,proveedor,precio_de_compra,fecha_de_compra,precio_de_venta,stock,ubicacion_asignada,punto_de_reorden,numero_de_serie,categoria,notas_adicionales FROM inventario WHERE nombre_del_producto=?",(nombre_del_producto,))
         resultado = cursor.fetchone()
         if resultado:
             # limpiamos los ENTRYS
@@ -196,14 +205,95 @@ class FerreAstro:
         else:
             messagebox.showerror("ERROR","El artículo no se encuentra en la base de datos.")
 
+    def buscar_por_categoria(self):
+        categoria = self.categoria_entry.get()
+        cursor = self.conn.cursor()
+        cursor.execute("SELECT nombre_del_producto FROM inventario WHERE categoria=?",(categoria,))
+        productos = cursor.fetchall()
+        if productos:
+            # CREAR NUEVA VENTANA
+            lista_window = Toplevel(self.root)
+            lista_window.title("Productos de la categoría")
+            # WIDGET PARA MOSTRAR LOS PRODUCTOS
+            lista = ttk.Treeview(lista_window,columns=("Producto"))
+            lista.heading("#1",text="Producto")
+            lista.pack()
+            # Agrega los productos a la lista
+            for producto in productos:
+                lista.insert("","end",values=(producto[0]))
+            
+            # FUNCIÓN PARA MANEJAR SELECCIÓN DE UN PRODUCTO
+            def mostrar_producto(event):
+                item=lista.selection()[0]
+                nombre_producto = lista.item(item,"values")[0]
+                cursor=self.conn.cursor()
+                cursor.execute("SELECT * FROM inventario WHERE nombre_del_producto=?",(nombre_producto,))
+                producto=cursor.fetchone()
+                if producto:
+                    # 1.- Limpia los campos existentes en la ventana principal:
+                    self.limpiar_campos()
+                    # 2.- Rellena los campos con los detalles del producto seleccionado:
+                    self.nombre_del_producto_entry.insert(0, producto[1])
+                    self.descripcion_entry.insert(0, producto[2])
+                    self.proveedor_entry.insert(0, producto[3])
+                    self.precio_de_compra_entry.insert(0, producto[4])
+                    self.fecha_de_compra_entry.insert(0, producto[5])
+                    self.precio_de_venta_entry.insert(0, producto[6])
+                    self.stock_entry.insert(0, producto[7])
+                    self.ubicacion_asignada_entry.insert(0, producto[8])
+                    self.punto_de_reorden_entry.insert(0, producto[9])
+                    self.numero_de_serie_entry.insert(0, producto[10])
+                    self.categoria_entry.insert(0, producto[11])
+                    self.notas_adicionales_entry.insert(0, producto[12])
+                else:
+                    messagebox.showerror("ERROR","No se encontró información detallada para este producto.")
+            lista.bind("<Double-1>",mostrar_producto)
+        else:
+            messagebox.showerror("ERROR","No se encontraron productos en esta categoría.")
+
+    # ------------ FUNCION LIMPIAR ------------
+
     def limpiar_campos(self):
-        pass
+        self.id_a_modificar = None
+        self.nombre_del_producto_entry.delete(0, END)
+        self.descripcion_entry.delete(0, END)
+        self.proveedor_entry.delete(0, END)
+        self.precio_de_compra_entry.delete(0, END)
+        self.fecha_de_compra_entry.delete(0, END)
+        self.precio_de_venta_entry.delete(0, END)
+        self.stock_entry.delete(0, END)
+        self.ubicacion_asignada_entry.delete(0, END)
+        self.punto_de_reorden_entry.delete(0, END)
+        self.numero_de_serie_entry.delete(0, END)
+        self.categoria_entry.delete(0, END)
+        self.notas_adicionales_entry.delete(0, END)
+
+    # ------------ FUNCION ELIMINAR ------------
 
     def eliminar_registro(self):
-        pass
+        if hasattr(self,'id_a_modificar') and self.id_a_modificar is not None:
+            cursor = self.conn.cursor()
+            cursor.execute('SELECT nombre_del_producto FROM inventario WHERE nombre_del_producto=?',(self.nombre_del_producto_entry))
+            resultado = cursor.fetchone()
+            if resultado:
+                nombre_del_producto = resultado
+                confirmar = messagebox.askyesno("ADVERTENCIA",f'Está seguro de eliminar a {nombre_del_producto}?.')
+                if confirmar:
+                    cursor.execute("DELETE FROM inventario WHERE id=?",(self.id_a_modificar))
+                    self.conn.commit()
+                    messagebox.showinfo("ELIMINADO","El registro ha sido eliminado.")
+                    self.limpiar_campos()
+            else:
+                messagebox.showerror("ERROR","No se ha encontrado ningún registro.")
+        else:
+            messagebox.showerror("ERROR","No se ha seleccionado ningún registro para eliminar.")
+
+    # ------------ FUNCION CERRAR ------------
 
     def cerrar_programa(self):
-        pass
+        confirmar = messagebox.askyesno("Cerrar aplicación","¿Desea, realmente, cerrar la aplicación?.")
+        if confirmar:
+            self.root.destroy()
 
 
 if __name__ == "__main__":
