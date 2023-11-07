@@ -267,6 +267,7 @@ class FerreAstro:
     # ------------ FUNCION LIMPIAR ------------
 
     def limpiar_campos(self):
+        # se puede poner .set(""), son parecidos.
         self.id_a_modificar = None
         self.nombre_del_producto_entry.delete(0, END)
         self.descripcion_entry.delete(0, END)
