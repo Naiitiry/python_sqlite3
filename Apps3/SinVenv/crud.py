@@ -180,8 +180,8 @@ calificacion=DoubleVar()
 
 #entrys y posicionamiento con función
 def config_input(mi_input,fila):
-    espaciado={'column':1,'padx':10,'pady':10,'ipadx':50}
-    mi_input.grid(row=fila,**espaciado)
+  espaciado={'column':1,'padx':10,'pady':10,'ipadx':50}
+  mi_input.grid(row=fila,**espaciado)
 
 
 # entrys y posicionamiento a mano

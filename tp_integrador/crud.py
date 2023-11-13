@@ -2,7 +2,7 @@
 # RECORDAR CONECTAR LA BBDD, ANTES DE BUSCAR O CARGAR, SINO DA ERROR
 #********************************************************************
 from tkinter import *
-from tkinter import messagebox
+from tkinter import messagebox, ttk
 import sqlite3 as sq3
 
 '''
@@ -19,12 +19,15 @@ import sqlite3 as sq3
 '''
 def conectar():
     global con
-    global cursor
-    con=sq3.connect()
-    messagebox.showinfo('Status','Conectado a la BBDD.')
+    global cur
+    con=sq3.connect('netflix_oscar.db')
+    cur = con.cursor()
+    messagebox.showinfo('Status','¡Conectado a la BBDD!.')
+
 def salir():
     resp = messagebox.askquestion('ADVERTENCIA','¿Desea desconectarse de la BBDD?.')
     if resp=='yes':
+        messagebox.showinfo('AVISO','Ha sido desconectado de la BBDD.')
         con.close()
         root.destroy()
 '''
@@ -32,6 +35,14 @@ def salir():
 ******INTERFAZ GRÁFICA*******
 *****************************
 '''
+#colores framecampos
+color_fondo='#b0802e'
+color_entry = '#fef9e0'
+color_letra = '#374f1d'
+#colores framebotones
+fondo_framebotones = color_letra
+color_boton = color_entry
+letra_boton = color_letra
 
 root=Tk()
 root.title('Premios OSCAR')
@@ -55,6 +66,47 @@ barramenu.add_cascade(label='Acerca de ...')
 #-----------------------------------------------------------------
 #---------------------------FRAMECAMPOS---------------------------
 #-----------------------------------------------------------------
+
+framecampo = Frame(root)
+framecampo.config(bg='')
+framecampo.pack(fill='both')
+
+#-----------------------------------------------------------------
+#---------------------------ENTRYS--------------------------------
+#-----------------------------------------------------------------
+'''
+entero = IntVar()  # Declara variable de tipo entera
+flotante = DoubleVar()  # Declara variable de tipo flotante
+cadena = StringVar()  # Declara variable de tipo cadena
+booleano = BooleanVar()  # Declara variable de tipo booleana
+'''
+
+type = StringVar() # LISTA DESPLEGABLE
+title_content = StringVar() # INPUT
+director = StringVar() # LISTA DESPLEGABLE
+country = StringVar() # LISTA DESPLEGABLE
+release_year = IntVar() # SLIDER
+rating = StringVar() # LISTA DESPLEGABLE
+duration = StringVar() # LISTA DESPLEGABLE
+listed_in = StringVar() # LISTA DESPLEGABLE
+
+# -------- LOS CONTENEDORES DE CADA LISTA --------
+list_type = list_campo('type')
+list_title_content = list_campo('title_content')
+list_director = list_campo('director')
+list_country = list_campo('country')
+list_release_year = list_campo('release_year')
+list_rating = list_campo('rating')
+list_duration = list_campo('duration')
+list_listed_in = list_campo('listed_in')
+
+# Definimos posicionamiento de entrys con una FUNCIÓN:
+def config_input(mi_input,fila):
+    espaciado={'column':1,'padx':10,'pady':10,'ipadx':50}
+    mi_input.grid(row=fila,**espaciado)
+
+# ENTRYS
+type_option = ttk.Combobox(framecampo,textvariable=type,state='active')
 
 
 root.mainloop()
