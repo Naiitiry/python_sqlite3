@@ -3,7 +3,7 @@ import sqlite3 as sq3
 # CONEXIÓN
 def get_connetion():
     global name_database
-    name_database = 'netflix.db'
+    name_database = 'netflix_oscar.db'
     conn = sq3.connect(name_database)
     return conn
 
