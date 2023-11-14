@@ -44,7 +44,7 @@ def lista(orden):
     class Table():
         def __init__(self, root2):
             nombre_cols = ['type', 'title_content', 'director', 'country',
-                           'release_year', 'rating', 'duration', 'listed_in']
+                        'release_year', 'rating', 'duration', 'listed_in']
             for i in range(cant_cols):
                 self.e = tk.Entry(frameppal)
                 self.e.config(bg='black', fg='white')
@@ -165,13 +165,24 @@ def conectar():
     global conn
     global cur
     global is_check_conn
-    pass
-  
+    try:
+        conn=sq3.connect('netflix_oscar.db')
+        cur=conn.cursor()
+        is_check_conn=True
+        messagebox.showinfo('Genial','Ya te conectaste')
+    except sq3.Error as err:
+        messagebox.showerror('Ups',f'Error: {str(err)}')
+
+
 #       Desconexión
 def desconectar():
     global is_check_conn
-    is_check_conn = False
-    pass
+    try:
+        is_check_conn = False
+        conn.close()
+        messagebox.showinfo('Adios','Cerrando DDBB.')
+    except sq3.Error as err:
+        messagebox.showerror('Upss',f'Error al desconectar: {str(err)}')
 
 '''
 *********************************
@@ -225,19 +236,49 @@ def list_campo(campo):
 # # MENU CRUD ( Create - read - update - delete)
 # #   CREATE
 def crear():
-    pass
+    global is_check_conn
+    if not is_check_conn:
+        mensaje_noconectado()
+        return
+    formularios=[
+
+    ]
 
 # #   READ
 def leer_general():
-    pass
+    global is_check_conn
+    if not is_check_conn:
+        mensaje_noconectado()
+        return
+    
+    title=title_content.get()
+    if(title==''):
+        messagebox.showwarning('Campo vacío','Por favor, complete el campo de título para realizar una búsqueda.')
+        return
+    try:
+        resultado=leer_campo(title,'Titulo','title_content')
+        if resultado:
+            root2=tk.Tk()
+            root2.title('Resultado de búsqueda')
+            frameppal=tk.Frame(root2)
+            frameppal.pack(fill='both')
+            framecerrar= tk.Frame(root2)
+    except:
+        pass
 
 # #   UPDATE
 def actualizar():
-    pass
+    global is_check_conn
+    if not is_check_conn:
+        mensaje_noconectado()
+        return
 
 # #   DELETE
 def borrar():
-    pass
+    global is_check_conn
+    if not is_check_conn:
+        mensaje_noconectado()
+        return
 
 '''
 *********************************
