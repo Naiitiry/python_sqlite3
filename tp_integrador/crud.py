@@ -30,6 +30,25 @@ def salir():
         messagebox.showinfo('AVISO','Ha sido desconectado de la BBDD.')
         con.close()
         root.destroy()
+
+# ********** CREAR ********** 
+def crear():
+    pass
+
+# ********** LEER ********** 
+def leer():
+    pass
+
+# ********** ACTUALIZAR ********** 
+def actualizar():
+    pass
+
+# ********** BORRAR  **********
+def borrar():
+    pass
+
+def lista_campo():
+    pass
 '''
 *****************************
 ******INTERFAZ GRÁFICA*******
