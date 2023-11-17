@@ -5,6 +5,7 @@
 from tkinter import *
 from tkinter import messagebox
 import sqlite3 as sq3
+import matplotlib.pyplot as plt
 
 '''
 *****************************
@@ -25,6 +26,39 @@ def salir():
         con.close()
         root.destroy()
 
+# GRÁFICAS
+# Por escuelas
+def alumnos_en_escuelas():
+  query = '''SELECT COUNT(alumnos.legajo) AS "total", escuelas.nombre FROM alumnos INNER JOIN escuelas ON alumnos.id_escuela = escuelas._id GROUP BY escuelas.nombre ORDER BY total DESC'''
+  cur.execute(query)
+  resultado=cur.fetchall()
+  #print(resultado)
+  
+  escuelas=[]
+  cantidad=[]
+  for r in resultado:
+    cantidad.append(r[0])
+    escuelas.append(r[1])
+  plt.bar(escuelas,cantidad)
+  plt.xticks(rotation=90) #labels del eje x
+  plt.show()
+
+# Por alumnos
+def alumnos_con_notas():
+  query = '''SELECT COUNT(legajo) AS "total",nota FROM alumnos GROUP BY nota'''
+  cur.execute(query)
+  resultado=cur.fetchall()
+  #print(resultado)
+  
+  nota=[]
+  cantidad=[]
+  for r in resultado:
+    cantidad.append(r[0])
+    nota.append(r[1])
+  plt.bar(nota,cantidad)
+  #plt.xticks(rotation=90) #labels del eje x
+  plt.show()
+
 def limpiar():
   legajo.set("")
   apellido.set("")
@@ -37,6 +71,61 @@ def limpiar():
   # se debe deshabilitar el legajo para que no se modifique.
   legajo_input.config(state='normal')
 
+def mostrar_licencia():
+  msg='''
+  Licencia by the perrito salvaje.
+  '''
+  messagebox.showinfo('Licencia',msg)
+
+def acerca_de():
+  messagebox.showinfo("ACERCA DE...","Creado por RFD\npara CaC 4.0 - Big Data\nNoviembre 2023.")
+
+def listar():
+    class Tabla():
+        def __init__(self,raiz2):
+            nombre_cols = ['Legajo','Apellido','Nombre','Promedio','Escuela']
+            # CREAMOS LAS COLUMNAS DE LA NUEVA VENTANA
+            for i in range(cant_cols):
+                self.e=Entry(frameppal)
+                self.e.config(bg='black', fg='white')
+                self.e.grid(row=0, column=i)
+                self.e.insert(END,nombre_cols[i])
+            # CREAMOS LOS REGISTROS DE LA NUEVA VENTANA
+            for fila in range(cant_filas):
+              for cols in range(cant_cols):
+                self.e=Entry(frameppal)
+                self.e.grid(row=fila+1,column=cols)
+                self.e.insert(END,resultado[fila][cols])
+                self.e.config(state='readonly') #para que nadie lo modifique, solo de lectura
+
+    root2=Tk()
+    root2.title('Listado de alumnos')
+    frameppal = Frame(root2)
+    frameppal.pack(fill='both')
+    framecerrar = Frame(root2)
+    framecerrar.config(bg=color_letra)
+    framecerrar.pack(fill='both')
+
+    boton_cerrar = Button(framecerrar, text="CERRAR",command=root2.destroy)
+    #Ingresa destroy para cerrar y no crear una función
+    boton_cerrar.config(bg=color_boton, fg='white', pady=10, padx=0)
+    boton_cerrar.pack(fill='both')
+
+    # obtener los datos para el listado
+    con = sq3.connect('mi_db.db')
+    cur = con.cursor()
+    query1 = '''
+            SELECT alumnos.legajo, alumnos.apellido, alumnos.nombre, alumnos.nota, escuelas.nombre FROM alumnos INNER JOIN escuelas 
+            ON alumnos.id_escuela = escuelas._id LIMIT 30   
+            '''
+    cur.execute(query1)
+    resultado = cur.fetchall()
+    cant_filas = len(resultado) # la cantidad de registros para saber cuántas filas
+    cant_cols = len(resultado[0])
+
+    tabla = Tabla(frameppal)
+    con.close()
+    root2.mainloop()
 
 # ******* CRUD *******
 # CREAR
@@ -131,22 +220,29 @@ root.title('GUI - CRUD')
 barramenu = Menu(root) # MENÚ
 root.config(menu=barramenu)
 
-# MENU BBDD
+# MENU BBDD Y COMANDOS
 bbddmenu=Menu(barramenu, tearoff=0) # saaca las líneas punteadas
 bbddmenu.add_command(label='Conectar con la BBDD',command=conectar)
+bbddmenu.add_command(label='Mostrar listado alumnos',command=listar)
 bbddmenu.add_command(label='Salir',command=salir)
 
-# MENU LIMPIAR
+# MENU ESTADÍSTICAS
+estadmenu = Menu(barramenu,tearoff=0)
+estadmenu.add_command(label='Cantidad de alumnos por escuela',command=alumnos_en_escuelas)
+estadmenu.add_command(label='Desempeño estudiantil',command=alumnos_con_notas)
+
+# MENU LIMPIAR Y COMANDOS
 limpiarmenu = Menu(barramenu, tearoff=0)
 limpiarmenu.add_command(label='Limpiar formulario',command=limpiar)
 
-# MENU ACERCA DE...
+# MENU ACERCA DE... Y COMANDOS
 ayudamenu = Menu(barramenu, tearoff=0)
-ayudamenu.add_command(label='Licencia')
-ayudamenu.add_command(label='Acerca de...')
+ayudamenu.add_command(label='Licencia',command=mostrar_licencia)
+ayudamenu.add_command(label='Acerca de...',command=acerca_de)
 
 # CASCADAS
 barramenu.add_cascade(label='BBDD',menu=bbddmenu)
+barramenu.add_cascade(label='Gráficas',menu=estadmenu)
 barramenu.add_cascade(label='Limpiar',menu=limpiarmenu)
 barramenu.add_cascade(label='Acerca de...',menu=ayudamenu)
 
