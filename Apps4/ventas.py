@@ -1,11 +1,14 @@
 import pandas as pd
 import numpy as np
-from scipy import stats
-#ventas=pd.read_csv("C:/Users/Tangalanga/Desktop/Practicas de Python/python_sqlite3/Apps4/datos/ventas.csv")
-#print(ventas)
+#from scipy import stats
+ventas=pd.read_csv("C:/Users/rdanchuk/Desktop/python/Python y SQLite/Formulario/Apps4/datos2/ventas.csv")
+#print(ventas.columns)
+#print(ventas['Importe'].count())
+#print(ventas.dtypes)
+
 
 # ******************** MEDIA ********************
-array_nros=np.array([12,5,6,8,2.8,8,52,63,8.3,698,156,12316.123,14,77,16])
+# array_nros=np.array([12,5,6,8,2.8,8,52,63,8.3,698,156,12316.123,14,77,16])
 # media=np.mean(array_nros)
 # print(f'Promedio/media: {media:.2f}')
 

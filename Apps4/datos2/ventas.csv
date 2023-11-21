@@ -1,0 +1,1001 @@
+Fecha,Vendedor,Sede,Rubro,Marca,Importe,Comision_x_venta,Satisfaccion_cliente
+10/02/2022,Juliet Glynne,Paternal,equipos de video,Wacom,381291,17243,10
+17/02/2022,Mufi Panchin,Ezeiza,notebook,Samsung,111535,16691,7
+14/04/2022,Constantine Creeber,Villa Bosch,equipos de video,Kensington,418512,20934,4
+23/03/2022,Pennie Hess,Palermo,TV,Engel,236222,17952,9
+28/03/2022,Timmy Ashlin,Villa Crespo,electrodomésticos,Kensington,266683,18070,7
+14/02/2022,Mufi Panchin,Villa Crespo,equipos de video,Nord,127348,23521,7
+13/03/2022,Pennie Hess,Paternal,PC armada,Millenium,429052,18021,9
+29/01/2022,Cecil Apted,Ezpeleta,equipos de video,Nord,117378,22222,10
+05/01/2022,Cecil Apted,Paternal,electrodomésticos,Corsair,138905,17588,5
+21/05/2022,Cecil Apted,Paternal,TV,Samsonite,120941,17633,6
+12/01/2022,Constantine Creeber,Villa Bosch,equipos de audio,Trust,373947,20175,8
+04/04/2022,Pennie Hess,San Martín,TV,Kensington,433778,21223,6
+31/03/2022,Ursuline Castilla,Recoleta,TV,Wacom,436451,18792,7
+23/03/2022,Arvin Bernhardi,Ezeiza,notebook,Wacom,228947,19225,5
+28/03/2022,Barde Benoist,Recoleta,PC armada,Wacom,415619,19489,3
+15/06/2022,Barde Benoist,Chacarita,PC armada,Kensington,351072,22803,5
+25/04/2022,Pennie Hess,Floresta,TV,Startech,307800,20638,10
+06/01/2022,Em Edmonson,Avellaneda,equipos de video,Belkin,237048,18998,4
+12/06/2022,Mufi Panchin,Paternal,equipos de video,Synology,123809,24915,5
+12/04/2022,Christel Zambonini,Ezeiza,notebook,Vodafone,373789,16643,5
+10/02/2022,Dallis Beefon,Ezpeleta,notebook,LG,303478,25039,10
+24/05/2022,Barde Benoist,Villa Soldati,TV,Engel,140042,23773,5
+03/05/2022,Arvin Bernhardi,Ezpeleta,equipos de audio,Access,199369,19987,8
+20/04/2022,Arvin Bernhardi,Villa Crespo,electrodomésticos,Huawei,405254,19457,5
+25/03/2022,Pennie Hess,Villa Crespo,notebook,Access,411973,22624,4
+04/06/2022,Timmy Ashlin,Ezpeleta,electrodomésticos,Millenium,126234,17707,8
+22/02/2022,Em Edmonson,Boedo,electrodomésticos,Kensington,458417,19182,9
+01/01/2022,Cecil Apted,Paternal,TV,Samsonite,403656,18409,9
+16/04/2022,Em Edmonson,Boedo,TV,Millenium,393651,16621,3
+15/05/2022,Constantine Creeber,Villa Bosch,equipos de video,LG,268465,23117,4
+26/03/2022,Timmy Ashlin,Avellaneda,equipos de video,Samsung,127172,17334,10
+22/05/2022,Dorotea Brandolini,Chacarita,electrodomésticos,Samsung,184064,17813,8
+05/04/2022,Humfried Woodberry,Avellaneda,equipos de audio,Kensington,112900,18826,6
+28/03/2022,Barde Benoist,Villa Crespo,TV,LG,117317,18603,6
+14/05/2022,Dallis Beefon,Villa Soldati,notebook,Digitus,175575,19406,9
+03/06/2022,Christel Zambonini,San Nicolás,electrodomésticos,Corsair,389943,23160,5
+27/05/2022,Pennie Hess,Ezeiza,PC armada,Netgear,191014,16586,5
+09/03/2022,Ursuline Castilla,San Nicolás,PC armada,Conceptronic,347694,19038,10
+12/01/2022,Christel Zambonini,Ezpeleta,equipos de video,Samsonite,131334,24481,9
+20/05/2022,Timmy Ashlin,San Martín,electrodomésticos,Netgear,456792,16928,7
+09/01/2022,Juliet Glynne,Recoleta,equipos de video,Samsung,230299,20549,5
+16/05/2022,Constantine Creeber,Villa Bosch,electrodomésticos,Engel,398517,22402,9
+12/05/2022,Dorotea Brandolini,San Martín,electrodomésticos,Trust,218943,17353,3
+19/06/2022,Arvin Bernhardi,Villa Crespo,equipos de audio,Startech,291202,22044,8
+17/04/2022,Constantine Creeber,Floresta,notebook,Belkin,421476,21783,4
+08/06/2022,Constantine Creeber,Chacarita,equipos de video,Trust,282086,19469,8
+14/05/2022,Humfried Woodberry,Ezeiza,equipos de video,Trust,122223,19048,3
+04/06/2022,Humfried Woodberry,San Martín,electrodomésticos,Kensington,190782,19106,10
+14/04/2022,Em Edmonson,Ezpeleta,electrodomésticos,LG,402211,19523,10
+19/03/2022,Em Edmonson,Avellaneda,electrodomésticos,Xiaomi,342281,22409,4
+24/03/2022,Humfried Woodberry,Ezpeleta,notebook,Wacom,407731,24685,8
+07/01/2022,Constantine Creeber,San Martín,TV,Conceptronic,408492,22607,7
+02/01/2022,Constantine Creeber,Paternal,PC armada,Startech,158190,23341,7
+22/05/2022,Cecil Apted,Palermo,equipos de video,LG,103230,18108,3
+04/05/2022,Juliet Glynne,San Nicolás,notebook,Samsung,134011,21476,7
+07/01/2022,Ursuline Castilla,Boedo,TV,Samsonite,382788,18869,4
+31/01/2022,Pennie Hess,Floresta,PC armada,Samsung,110603,21201,3
+30/04/2022,Em Edmonson,Chacarita,TV,Conceptronic,306870,17925,5
+20/05/2022,Dallis Beefon,Palermo,equipos de audio,Huawei,284911,20543,9
+04/06/2022,Arvin Bernhardi,Avellaneda,equipos de video,Access,342078,21565,10
+13/03/2022,Juliet Glynne,Paternal,equipos de audio,Corsair,454207,24118,5
+07/04/2022,Ursuline Castilla,Avellaneda,electrodomésticos,Vodafone,251916,22146,4
+03/01/2022,Arvin Bernhardi,Palermo,PC armada,Engel,342086,17087,4
+17/03/2022,Pennie Hess,Villa Crespo,electrodomésticos,Samsonite,122596,18454,8
+05/01/2022,Juliet Glynne,San Nicolás,notebook,Ubiquity,171551,17880,10
+30/04/2022,Humfried Woodberry,San Nicolás,electrodomésticos,Samsonite,356111,24496,9
+01/04/2022,Arvin Bernhardi,Ezeiza,electrodomésticos,Xiaomi,358536,19742,4
+26/02/2022,Dorotea Brandolini,Flores,equipos de audio,Wacom,371650,23015,3
+01/03/2022,Barde Benoist,Chacarita,TV,Conceptronic,379486,17518,6
+31/03/2022,Mufi Panchin,Palermo,equipos de video,Xiaomi,409249,22388,8
+25/04/2022,Dorotea Brandolini,Villa Bosch,TV,Kensington,191134,19735,9
+23/06/2022,Constantine Creeber,Villa Bosch,electrodomésticos,LG,127163,25461,7
+26/06/2022,Angelita Lambkin,Avellaneda,TV,Samsung,191918,20931,6
+23/06/2022,Dallis Beefon,Palermo,TV,Corsair,179382,21507,10
+11/06/2022,Arvin Bernhardi,Avellaneda,electrodomésticos,Huawei,338227,23294,4
+02/06/2022,Timmy Ashlin,Villa Bosch,notebook,Engel,407107,17339,8
+24/05/2022,Juliet Glynne,Palermo,equipos de audio,LG,102925,17838,10
+07/06/2022,Angelita Lambkin,Avellaneda,notebook,Digitus,348242,22654,6
+20/06/2022,Timmy Ashlin,Chacarita,equipos de audio,Engel,132719,24930,7
+25/04/2022,Dallis Beefon,San Martín,PC armada,Wacom,397691,18491,3
+30/04/2022,Barde Benoist,Avellaneda,PC armada,Nord,221872,23079,3
+31/05/2022,Mufi Panchin,Recoleta,notebook,Belkin,428778,19145,7
+25/05/2022,Humfried Woodberry,Ezeiza,equipos de audio,Access,456984,22913,10
+07/02/2022,Barde Benoist,San Martín,electrodomésticos,Netgear,160845,17618,4
+19/06/2022,Em Edmonson,Ezpeleta,notebook,Ubiquity,343887,23304,7
+22/04/2022,Juliet Glynne,Villa Soldati,equipos de audio,Samsonite,299459,17954,3
+14/02/2022,Barde Benoist,Villa Soldati,PC armada,Kensington,310928,17734,7
+17/01/2022,Arvin Bernhardi,San Nicolás,equipos de audio,Digitus,163434,21101,7
+08/03/2022,Angelita Lambkin,Boedo,electrodomésticos,Toshiba,454083,21393,9
+13/01/2022,Juliet Glynne,San Nicolás,equipos de audio,Startech,268852,22245,5
+18/04/2022,Timmy Ashlin,Villa Soldati,PC armada,Conceptronic,168190,24680,3
+26/06/2022,Em Edmonson,Ezeiza,equipos de audio,Corsair,346169,18060,6
+11/02/2022,Christel Zambonini,Floresta,notebook,Engel,282532,21905,5
+14/06/2022,Dorotea Brandolini,Avellaneda,equipos de video,Corsair,382297,22925,7
+01/06/2022,Dorotea Brandolini,Recoleta,PC armada,Ubiquity,422995,21483,7
+13/02/2022,Dallis Beefon,Boedo,equipos de video,Conceptronic,297247,17559,7
+02/02/2022,Dallis Beefon,Chacarita,TV,Startech,121971,23122,4
+07/05/2022,Mufi Panchin,Boedo,equipos de audio,Wacom,412488,20422,4
+25/04/2022,Barde Benoist,Villa Crespo,electrodomésticos,Ubiquity,168398,21850,5
+03/01/2022,Arvin Bernhardi,Ezpeleta,equipos de video,Trust,441349,17774,5
+17/06/2022,Constantine Creeber,Avellaneda,TV,Digitus,173999,16842,3
+11/03/2022,Arvin Bernhardi,Floresta,equipos de audio,Trust,449101,19223,8
+30/04/2022,Mufi Panchin,Paternal,equipos de audio,Digitus,162204,21732,7
+28/04/2022,Christel Zambonini,Avellaneda,equipos de video,Trust,180891,16730,8
+17/05/2022,Timmy Ashlin,Paternal,PC armada,Toshiba,275685,20609,4
+29/04/2022,Constantine Creeber,Paternal,PC armada,Xiaomi,196929,23185,5
+29/05/2022,Dorotea Brandolini,Paternal,notebook,Xiaomi,266982,21307,6
+15/02/2022,Constantine Creeber,Paternal,TV,Netgear,423634,23886,5
+12/01/2022,Arvin Bernhardi,Villa Soldati,equipos de audio,Engel,405733,20817,5
+16/01/2022,Ursuline Castilla,Villa Crespo,equipos de video,Millenium,154641,20191,3
+13/06/2022,Dallis Beefon,Boedo,TV,Belkin,190235,22096,10
+16/02/2022,Juliet Glynne,Ezpeleta,notebook,Samsonite,200836,19056,6
+08/01/2022,Arvin Bernhardi,San Nicolás,equipos de audio,Huawei,436478,24613,5
+14/04/2022,Angelita Lambkin,San Martín,electrodomésticos,Startech,222467,21461,6
+13/06/2022,Em Edmonson,San Martín,equipos de video,Samsonite,101603,24203,7
+12/04/2022,Timmy Ashlin,Ezeiza,TV,Samsonite,113816,19650,10
+12/05/2022,Mufi Panchin,Avellaneda,electrodomésticos,Xiaomi,341082,17605,10
+09/05/2022,Pennie Hess,Recoleta,notebook,Toshiba,291808,17059,9
+21/02/2022,Timmy Ashlin,Villa Crespo,PC armada,Kensington,363534,18621,10
+23/05/2022,Christel Zambonini,Chacarita,TV,Huawei,309398,18283,10
+21/01/2022,Constantine Creeber,Palermo,equipos de video,Xiaomi,145298,19986,10
+15/04/2022,Ursuline Castilla,Boedo,notebook,Conceptronic,150341,20089,4
+22/04/2022,Dallis Beefon,Ezeiza,equipos de video,Toshiba,175718,18173,3
+04/03/2022,Angelita Lambkin,Chacarita,equipos de video,Startech,182749,18787,6
+19/02/2022,Barde Benoist,Ezpeleta,equipos de video,Conceptronic,412934,16817,3
+13/05/2022,Ursuline Castilla,Boedo,TV,Belkin,397500,24366,7
+17/01/2022,Juliet Glynne,San Martín,electrodomésticos,Samsonite,432956,21750,9
+17/01/2022,Christel Zambonini,Paternal,equipos de audio,Conceptronic,196933,20819,3
+14/06/2022,Ursuline Castilla,Villa Soldati,equipos de audio,Huawei,355170,18295,3
+23/04/2022,Humfried Woodberry,Palermo,TV,Kensington,350958,21820,10
+16/01/2022,Cecil Apted,Flores,notebook,Synology,323093,24838,10
+22/05/2022,Constantine Creeber,Ezpeleta,notebook,Engel,335355,24650,4
+05/05/2022,Mufi Panchin,Flores,TV,Belkin,173532,17566,9
+08/05/2022,Juliet Glynne,Recoleta,TV,Samsonite,285827,20286,3
+13/05/2022,Cecil Apted,Flores,notebook,Conceptronic,101846,23621,6
+28/06/2022,Constantine Creeber,Boedo,PC armada,Trust,101060,17473,10
+29/04/2022,Juliet Glynne,Palermo,TV,Ubiquity,320504,20684,5
+06/06/2022,Barde Benoist,San Martín,notebook,Xiaomi,412415,17213,9
+14/06/2022,Timmy Ashlin,Ezeiza,notebook,Samsonite,246705,24515,4
+18/03/2022,Dorotea Brandolini,Villa Crespo,notebook,Xiaomi,165589,19241,8
+30/05/2022,Dallis Beefon,Paternal,PC armada,Xiaomi,386682,16774,9
+22/01/2022,Barde Benoist,Flores,TV,Huawei,163756,22911,5
+20/05/2022,Humfried Woodberry,Villa Crespo,equipos de audio,Nord,333025,23827,5
+27/02/2022,Mufi Panchin,Villa Crespo,PC armada,Xiaomi,127575,18065,6
+22/06/2022,Constantine Creeber,Villa Soldati,equipos de video,Belkin,282138,16651,8
+08/02/2022,Humfried Woodberry,Floresta,equipos de video,Digitus,185420,17299,5
+08/04/2022,Pennie Hess,Boedo,notebook,Huawei,308725,17757,10
+01/02/2022,Juliet Glynne,Boedo,TV,Nord,336451,23060,3
+26/06/2022,Barde Benoist,Villa Soldati,equipos de audio,Huawei,341173,20733,3
+03/05/2022,Ursuline Castilla,San Nicolás,TV,Engel,277699,20318,6
+11/04/2022,Juliet Glynne,Villa Soldati,equipos de audio,Millenium,166213,22510,10
+30/01/2022,Angelita Lambkin,Palermo,PC armada,Nord,292827,19112,6
+27/01/2022,Em Edmonson,Ezeiza,notebook,Millenium,279883,21717,4
+17/01/2022,Cecil Apted,Chacarita,equipos de video,Corsair,406709,22873,5
+09/01/2022,Timmy Ashlin,Ezeiza,TV,Corsair,209369,18132,7
+09/01/2022,Christel Zambonini,Paternal,TV,Conceptronic,263812,24517,3
+03/02/2022,Humfried Woodberry,Villa Crespo,notebook,LG,346635,18307,3
+18/06/2022,Dorotea Brandolini,Villa Crespo,TV,Ubiquity,152519,19664,7
+25/06/2022,Barde Benoist,Villa Soldati,TV,Kensington,434483,24435,3
+05/01/2022,Christel Zambonini,Villa Soldati,notebook,Startech,320329,17712,9
+26/06/2022,Arvin Bernhardi,Recoleta,PC armada,Nord,126240,19316,5
+18/03/2022,Cecil Apted,Ezpeleta,PC armada,Trust,194245,21829,7
+13/06/2022,Dallis Beefon,Ezeiza,equipos de video,Startech,370656,21542,10
+16/04/2022,Humfried Woodberry,Flores,PC armada,Startech,423604,25455,4
+30/05/2022,Juliet Glynne,Flores,notebook,LG,114418,19751,7
+13/02/2022,Dorotea Brandolini,Boedo,notebook,Conceptronic,257964,25016,4
+01/05/2022,Angelita Lambkin,Avellaneda,equipos de video,Wacom,183177,17066,4
+25/02/2022,Pennie Hess,Avellaneda,PC armada,Xiaomi,117714,17295,6
+01/05/2022,Em Edmonson,Paternal,notebook,Access,390871,17542,5
+22/04/2022,Constantine Creeber,Ezeiza,PC armada,Vodafone,134588,18823,3
+02/04/2022,Timmy Ashlin,San Martín,equipos de video,Samsonite,314698,17116,9
+06/03/2022,Dallis Beefon,Paternal,electrodomésticos,Huawei,273085,24891,9
+23/06/2022,Cecil Apted,Ezpeleta,notebook,Nord,402640,24550,8
+03/05/2022,Christel Zambonini,Ezpeleta,equipos de audio,LG,144422,22682,9
+09/03/2022,Constantine Creeber,Floresta,PC armada,Nord,146250,18598,10
+07/05/2022,Constantine Creeber,Paternal,notebook,Corsair,276359,25317,7
+15/04/2022,Em Edmonson,Boedo,notebook,Xiaomi,392879,21539,4
+27/03/2022,Constantine Creeber,Palermo,electrodomésticos,Synology,433589,19955,6
+13/06/2022,Humfried Woodberry,Villa Bosch,PC armada,Conceptronic,215316,17720,8
+25/06/2022,Barde Benoist,Chacarita,equipos de video,Trust,281478,25065,7
+05/01/2022,Cecil Apted,Recoleta,notebook,Access,328255,23845,10
+18/01/2022,Angelita Lambkin,Boedo,notebook,Samsonite,393832,24228,4
+16/05/2022,Timmy Ashlin,Paternal,PC armada,Ubiquity,411743,21245,4
+01/01/2022,Barde Benoist,Floresta,TV,Synology,122454,21318,3
+13/06/2022,Cecil Apted,Villa Bosch,equipos de video,Trust,344028,16751,3
+05/05/2022,Arvin Bernhardi,Ezeiza,equipos de audio,Belkin,221854,16759,10
+11/02/2022,Humfried Woodberry,Palermo,notebook,Digitus,458943,23360,5
+23/01/2022,Em Edmonson,Villa Soldati,electrodomésticos,Netgear,426406,17616,7
+08/03/2022,Barde Benoist,Villa Bosch,equipos de video,Huawei,120745,16947,5
+01/02/2022,Ursuline Castilla,Ezpeleta,equipos de video,Ubiquity,277571,22362,6
+07/02/2022,Em Edmonson,Palermo,electrodomésticos,Trust,342982,17761,6
+23/05/2022,Juliet Glynne,Ezeiza,PC armada,Conceptronic,325384,21978,8
+29/03/2022,Pennie Hess,Ezpeleta,notebook,Nord,371651,23369,6
+19/02/2022,Em Edmonson,Villa Bosch,equipos de audio,Vodafone,128451,24661,7
+28/01/2022,Angelita Lambkin,San Martín,equipos de audio,Engel,130854,19776,8
+06/04/2022,Constantine Creeber,Villa Bosch,equipos de audio,Huawei,305164,25551,7
+18/02/2022,Christel Zambonini,Villa Crespo,equipos de audio,Kensington,431789,24074,8
+02/01/2022,Cecil Apted,Recoleta,equipos de video,Vodafone,248140,17090,7
+08/03/2022,Christel Zambonini,Avellaneda,PC armada,Trust,397856,20135,3
+31/01/2022,Humfried Woodberry,Floresta,TV,Huawei,171566,16988,9
+25/02/2022,Dallis Beefon,Villa Bosch,TV,Huawei,386679,22366,3
+05/03/2022,Timmy Ashlin,Boedo,equipos de audio,Access,145646,17003,3
+17/03/2022,Angelita Lambkin,Chacarita,TV,Trust,311397,24491,7
+01/03/2022,Christel Zambonini,Floresta,equipos de video,Xiaomi,353622,21864,10
+13/02/2022,Ursuline Castilla,Flores,equipos de audio,Millenium,286731,17544,10
+28/02/2022,Pennie Hess,Floresta,PC armada,Wacom,310189,23101,9
+08/04/2022,Humfried Woodberry,Flores,TV,Ubiquity,276215,23831,9
+05/05/2022,Juliet Glynne,Villa Soldati,equipos de audio,Huawei,199686,19336,3
+07/03/2022,Constantine Creeber,Boedo,equipos de video,Digitus,265852,21817,6
+02/03/2022,Barde Benoist,Villa Crespo,notebook,Netgear,237216,25045,7
+16/06/2022,Dallis Beefon,Chacarita,equipos de audio,Samsung,367376,23114,4
+03/04/2022,Arvin Bernhardi,Chacarita,electrodomésticos,Corsair,439531,24865,4
+16/05/2022,Pennie Hess,Villa Crespo,equipos de video,Ubiquity,165155,23553,8
+12/01/2022,Ursuline Castilla,Ezpeleta,electrodomésticos,Digitus,296011,23216,6
+01/06/2022,Humfried Woodberry,Villa Bosch,equipos de video,Corsair,227413,17138,5
+06/02/2022,Dorotea Brandolini,Palermo,equipos de audio,Synology,270280,20094,8
+18/06/2022,Juliet Glynne,San Martín,equipos de video,Samsung,207241,21946,4
+08/01/2022,Cecil Apted,Boedo,PC armada,Engel,100212,18325,8
+31/05/2022,Humfried Woodberry,San Martín,notebook,Xiaomi,419619,21879,5
+18/05/2022,Dallis Beefon,Ezeiza,PC armada,Huawei,115175,17195,6
+11/05/2022,Cecil Apted,Avellaneda,electrodomésticos,Corsair,349446,25227,8
+30/05/2022,Juliet Glynne,Boedo,equipos de video,Synology,336999,17116,7
+25/04/2022,Angelita Lambkin,Flores,PC armada,Belkin,435288,23145,8
+21/05/2022,Dallis Beefon,Boedo,TV,Netgear,145613,17621,8
+07/01/2022,Angelita Lambkin,Boedo,TV,Toshiba,366294,18748,6
+09/06/2022,Humfried Woodberry,Villa Crespo,TV,Digitus,338643,19639,3
+17/01/2022,Barde Benoist,Flores,notebook,Belkin,233715,24722,9
+13/04/2022,Pennie Hess,Ezpeleta,equipos de audio,Wacom,300876,17686,3
+12/02/2022,Barde Benoist,Ezeiza,TV,Vodafone,206199,17790,9
+23/01/2022,Angelita Lambkin,Avellaneda,equipos de video,Huawei,397482,25316,4
+19/04/2022,Em Edmonson,Floresta,notebook,Digitus,264035,20695,7
+02/01/2022,Ursuline Castilla,Chacarita,equipos de video,Samsung,310756,23852,7
+09/03/2022,Arvin Bernhardi,Ezpeleta,TV,Trust,262587,20685,3
+10/06/2022,Dallis Beefon,Paternal,equipos de video,Vodafone,415796,17521,6
+25/06/2022,Humfried Woodberry,Palermo,notebook,Synology,450140,19399,3
+28/05/2022,Ursuline Castilla,Ezeiza,electrodomésticos,Engel,310458,20847,4
+28/01/2022,Constantine Creeber,Villa Soldati,equipos de audio,Synology,258961,24780,6
+18/05/2022,Dallis Beefon,Chacarita,equipos de video,Ubiquity,186868,23012,6
+30/03/2022,Timmy Ashlin,Chacarita,equipos de audio,Access,395729,17523,6
+22/05/2022,Dallis Beefon,Villa Crespo,equipos de audio,Kensington,360324,22365,10
+31/03/2022,Em Edmonson,Flores,notebook,Netgear,153974,24962,8
+10/04/2022,Christel Zambonini,Villa Crespo,equipos de audio,Corsair,437287,24641,4
+19/05/2022,Barde Benoist,Flores,TV,Samsonite,360830,23872,7
+26/02/2022,Timmy Ashlin,Palermo,equipos de audio,Samsonite,370108,22606,6
+02/04/2022,Angelita Lambkin,Flores,equipos de audio,Netgear,290736,21048,9
+09/05/2022,Cecil Apted,Paternal,equipos de audio,Engel,116755,24125,3
+18/03/2022,Timmy Ashlin,Flores,equipos de audio,Trust,258462,18695,6
+05/04/2022,Dallis Beefon,San Nicolás,TV,Millenium,456312,25419,9
+11/05/2022,Cecil Apted,Ezeiza,equipos de video,Samsonite,108919,17835,10
+22/02/2022,Ursuline Castilla,Recoleta,equipos de audio,Conceptronic,247615,22642,6
+25/06/2022,Pennie Hess,Palermo,equipos de video,Xiaomi,347974,23941,6
+28/01/2022,Pennie Hess,Ezpeleta,TV,Toshiba,277079,19177,7
+17/06/2022,Ursuline Castilla,Floresta,TV,Netgear,101945,18482,5
+17/06/2022,Mufi Panchin,San Martín,PC armada,Trust,399553,23580,5
+30/01/2022,Cecil Apted,Flores,electrodomésticos,Conceptronic,423037,17322,5
+29/06/2022,Timmy Ashlin,Floresta,equipos de video,Startech,385580,22520,4
+07/03/2022,Pennie Hess,Villa Soldati,PC armada,Engel,323698,22983,4
+16/02/2022,Dorotea Brandolini,Villa Crespo,notebook,Digitus,266729,24739,6
+27/06/2022,Dallis Beefon,Chacarita,TV,Digitus,309554,17751,10
+15/02/2022,Mufi Panchin,Flores,equipos de video,Samsonite,195459,23017,9
+22/01/2022,Barde Benoist,Chacarita,equipos de audio,Trust,332872,21933,8
+10/04/2022,Dorotea Brandolini,San Martín,notebook,Samsung,131112,20832,9
+18/06/2022,Juliet Glynne,Boedo,TV,Netgear,439358,18903,4
+25/01/2022,Pennie Hess,San Nicolás,PC armada,Samsonite,393977,22373,10
+24/04/2022,Angelita Lambkin,Ezpeleta,equipos de video,Corsair,124445,16674,4
+01/02/2022,Juliet Glynne,Boedo,electrodomésticos,Vodafone,218039,17656,7
+22/04/2022,Christel Zambonini,Floresta,equipos de audio,Huawei,209300,22421,8
+02/06/2022,Dorotea Brandolini,San Nicolás,notebook,Synology,416428,19746,7
+25/03/2022,Arvin Bernhardi,Ezpeleta,electrodomésticos,Wacom,110019,23452,6
+30/03/2022,Angelita Lambkin,Villa Soldati,TV,LG,255664,21731,8
+21/05/2022,Angelita Lambkin,Paternal,equipos de audio,Samsung,232459,20345,7
+22/03/2022,Humfried Woodberry,Floresta,TV,Access,422450,18355,7
+18/05/2022,Christel Zambonini,San Nicolás,PC armada,Digitus,354589,24603,4
+03/05/2022,Dallis Beefon,Recoleta,notebook,LG,329912,20839,3
+25/01/2022,Em Edmonson,Recoleta,equipos de audio,Nord,314048,24588,4
+16/05/2022,Em Edmonson,Ezpeleta,equipos de video,Samsonite,231749,19088,6
+24/04/2022,Cecil Apted,Paternal,PC armada,Nord,260745,22800,9
+23/05/2022,Arvin Bernhardi,Ezeiza,electrodomésticos,Ubiquity,422833,17591,4
+19/01/2022,Angelita Lambkin,Ezeiza,notebook,Netgear,427435,23007,9
+11/05/2022,Christel Zambonini,San Nicolás,electrodomésticos,Kensington,201811,23328,4
+08/04/2022,Arvin Bernhardi,Villa Crespo,electrodomésticos,Ubiquity,267813,22767,7
+17/01/2022,Arvin Bernhardi,Flores,TV,Kensington,138116,22947,5
+11/01/2022,Cecil Apted,Ezpeleta,equipos de audio,Samsonite,281984,19247,3
+28/01/2022,Cecil Apted,Chacarita,notebook,Engel,361388,24664,7
+18/02/2022,Em Edmonson,Villa Bosch,PC armada,Startech,120681,22901,10
+06/02/2022,Cecil Apted,Recoleta,TV,Netgear,130776,23120,7
+11/01/2022,Dorotea Brandolini,San Martín,equipos de audio,Xiaomi,290363,18400,5
+24/02/2022,Juliet Glynne,Paternal,TV,Ubiquity,452318,20818,3
+06/03/2022,Cecil Apted,Paternal,electrodomésticos,Ubiquity,406979,19966,9
+22/05/2022,Arvin Bernhardi,Palermo,notebook,Toshiba,231271,21559,3
+01/04/2022,Cecil Apted,Recoleta,electrodomésticos,Samsonite,306913,22978,9
+06/04/2022,Mufi Panchin,Villa Crespo,equipos de audio,Toshiba,115722,20395,3
+25/05/2022,Dorotea Brandolini,Flores,equipos de audio,Huawei,231242,21192,5
+16/02/2022,Pennie Hess,Villa Soldati,TV,Access,262547,24482,7
+13/06/2022,Juliet Glynne,Ezpeleta,equipos de video,Kensington,367216,21924,7
+12/04/2022,Christel Zambonini,Flores,equipos de video,Vodafone,297416,21481,9
+14/04/2022,Dorotea Brandolini,Recoleta,equipos de video,Trust,148568,22278,4
+18/02/2022,Dallis Beefon,Villa Bosch,equipos de video,Samsung,242227,24291,10
+20/01/2022,Arvin Bernhardi,Villa Crespo,electrodomésticos,Corsair,443216,16557,10
+04/02/2022,Dorotea Brandolini,Avellaneda,TV,Startech,367027,19214,6
+14/01/2022,Constantine Creeber,Paternal,equipos de audio,Wacom,355614,24896,9
+25/03/2022,Em Edmonson,Recoleta,equipos de audio,Kensington,347725,19858,9
+24/05/2022,Humfried Woodberry,Ezpeleta,equipos de audio,Synology,214710,19658,8
+07/04/2022,Em Edmonson,Floresta,equipos de audio,Vodafone,205409,21795,8
+12/01/2022,Ursuline Castilla,Ezpeleta,equipos de video,Conceptronic,244751,16642,9
+14/03/2022,Dorotea Brandolini,San Martín,TV,Corsair,171103,19317,8
+06/03/2022,Cecil Apted,Villa Soldati,electrodomésticos,Conceptronic,284258,16784,6
+09/01/2022,Mufi Panchin,Recoleta,equipos de audio,Ubiquity,166324,24878,6
+13/05/2022,Cecil Apted,Floresta,notebook,Belkin,354204,18487,8
+28/06/2022,Arvin Bernhardi,Villa Bosch,notebook,Huawei,263415,19682,5
+25/03/2022,Constantine Creeber,San Nicolás,electrodomésticos,Nord,448822,23952,9
+07/02/2022,Christel Zambonini,Avellaneda,equipos de video,Wacom,367433,20402,3
+02/02/2022,Dorotea Brandolini,Avellaneda,notebook,Digitus,142735,23128,10
+15/04/2022,Cecil Apted,San Martín,equipos de audio,Vodafone,121832,19780,5
+21/04/2022,Cecil Apted,Palermo,equipos de audio,Conceptronic,226378,17513,8
+28/01/2022,Dorotea Brandolini,Villa Crespo,notebook,LG,110740,23559,4
+16/06/2022,Dallis Beefon,San Nicolás,equipos de audio,Millenium,182585,19852,5
+05/05/2022,Juliet Glynne,Ezpeleta,TV,Corsair,296208,24380,9
+19/02/2022,Em Edmonson,Chacarita,TV,Nord,155350,21438,9
+16/04/2022,Timmy Ashlin,Villa Crespo,notebook,Xiaomi,440956,20879,10
+10/03/2022,Barde Benoist,Paternal,PC armada,Conceptronic,127212,18289,7
+06/01/2022,Constantine Creeber,Villa Crespo,equipos de audio,Millenium,329937,21611,7
+30/05/2022,Mufi Panchin,Villa Crespo,equipos de video,Xiaomi,136110,23083,3
+14/05/2022,Ursuline Castilla,Avellaneda,equipos de video,Toshiba,381106,19867,5
+16/03/2022,Angelita Lambkin,Boedo,electrodomésticos,Ubiquity,159688,22433,8
+14/03/2022,Pennie Hess,Chacarita,equipos de video,Conceptronic,250305,19146,4
+05/04/2022,Pennie Hess,Palermo,notebook,Synology,170899,20779,8
+18/01/2022,Pennie Hess,Ezeiza,TV,Huawei,328911,21565,4
+30/03/2022,Timmy Ashlin,Paternal,equipos de audio,Startech,173420,22436,8
+13/01/2022,Arvin Bernhardi,San Nicolás,TV,Corsair,246520,16875,5
+18/02/2022,Christel Zambonini,Villa Crespo,equipos de video,Synology,267791,25381,8
+26/04/2022,Ursuline Castilla,Paternal,electrodomésticos,Millenium,457527,20772,7
+20/06/2022,Angelita Lambkin,Ezeiza,notebook,Synology,266617,21935,6
+06/06/2022,Pennie Hess,Chacarita,electrodomésticos,Samsonite,212825,20227,6
+14/01/2022,Angelita Lambkin,Floresta,electrodomésticos,Nord,209150,17333,8
+01/01/2022,Juliet Glynne,Flores,equipos de video,Ubiquity,191673,22796,8
+22/02/2022,Humfried Woodberry,San Martín,electrodomésticos,Samsonite,399766,23502,5
+05/04/2022,Constantine Creeber,Paternal,notebook,Conceptronic,223647,25278,10
+10/05/2022,Em Edmonson,Flores,equipos de video,Wacom,345579,20226,7
+29/04/2022,Arvin Bernhardi,Palermo,notebook,Vodafone,193089,19022,9
+19/04/2022,Timmy Ashlin,Villa Bosch,electrodomésticos,LG,451886,24621,3
+22/01/2022,Em Edmonson,Chacarita,electrodomésticos,Trust,302296,22108,10
+19/01/2022,Arvin Bernhardi,Ezpeleta,equipos de video,Samsonite,381787,21285,6
+16/05/2022,Constantine Creeber,San Martín,TV,Belkin,340603,16850,7
+01/03/2022,Constantine Creeber,Ezpeleta,equipos de audio,Kensington,281461,23629,4
+30/05/2022,Dorotea Brandolini,Palermo,equipos de audio,Toshiba,426893,23970,5
+27/04/2022,Barde Benoist,Villa Crespo,notebook,Digitus,286793,21616,9
+18/04/2022,Ursuline Castilla,Ezeiza,notebook,Netgear,178066,19849,5
+08/01/2022,Em Edmonson,San Nicolás,notebook,Samsonite,105611,19781,8
+06/03/2022,Dorotea Brandolini,Ezpeleta,PC armada,Access,454783,21810,4
+10/05/2022,Angelita Lambkin,Recoleta,TV,Access,275807,22004,10
+22/03/2022,Arvin Bernhardi,Paternal,equipos de audio,Nord,252575,16546,3
+08/04/2022,Dorotea Brandolini,Villa Bosch,TV,Corsair,275078,21523,10
+22/05/2022,Mufi Panchin,San Martín,notebook,Samsonite,360765,19918,10
+07/02/2022,Juliet Glynne,San Nicolás,TV,Engel,119898,20393,8
+06/02/2022,Arvin Bernhardi,Boedo,PC armada,Belkin,319485,16721,5
+09/01/2022,Dallis Beefon,Ezpeleta,equipos de video,Wacom,442483,24456,4
+28/04/2022,Cecil Apted,Villa Soldati,notebook,Huawei,410477,24282,3
+11/05/2022,Cecil Apted,San Martín,TV,Netgear,333579,20494,10
+08/04/2022,Barde Benoist,Paternal,equipos de audio,Access,321400,17683,3
+15/02/2022,Dallis Beefon,Paternal,equipos de video,Digitus,165898,24788,5
+15/01/2022,Pennie Hess,Recoleta,notebook,Wacom,314693,22821,9
+12/03/2022,Arvin Bernhardi,Villa Bosch,notebook,Wacom,263325,20212,7
+05/03/2022,Mufi Panchin,Ezpeleta,equipos de audio,Xiaomi,415958,20389,6
+09/06/2022,Dallis Beefon,San Martín,equipos de video,Netgear,290408,16749,5
+11/01/2022,Mufi Panchin,Boedo,TV,Access,378104,23105,10
+27/05/2022,Dallis Beefon,Villa Bosch,TV,Toshiba,452890,19127,10
+05/01/2022,Mufi Panchin,San Nicolás,PC armada,LG,220560,19190,4
+22/03/2022,Arvin Bernhardi,San Martín,notebook,Trust,408809,18247,8
+16/04/2022,Ursuline Castilla,Flores,TV,Netgear,218460,17513,4
+12/06/2022,Barde Benoist,Avellaneda,notebook,Engel,137539,19842,9
+18/04/2022,Juliet Glynne,Boedo,equipos de video,Nord,216274,18105,9
+20/01/2022,Humfried Woodberry,Ezpeleta,PC armada,Access,146435,17103,9
+12/06/2022,Juliet Glynne,San Martín,notebook,Samsonite,312460,23521,7
+04/03/2022,Christel Zambonini,Palermo,electrodomésticos,Access,360713,25336,8
+06/03/2022,Em Edmonson,San Nicolás,equipos de video,Huawei,432678,19419,10
+05/04/2022,Angelita Lambkin,Villa Crespo,electrodomésticos,Millenium,442002,18127,7
+01/03/2022,Timmy Ashlin,Ezeiza,TV,Nord,306572,22013,10
+14/05/2022,Christel Zambonini,Villa Soldati,PC armada,Trust,337531,22604,5
+15/02/2022,Mufi Panchin,Paternal,TV,Toshiba,133525,20270,7
+17/03/2022,Mufi Panchin,Villa Soldati,PC armada,Millenium,283150,24803,10
+15/03/2022,Em Edmonson,Recoleta,notebook,Digitus,225154,20073,4
+06/01/2022,Dallis Beefon,San Nicolás,PC armada,Vodafone,253490,23818,3
+15/06/2022,Angelita Lambkin,Recoleta,PC armada,Wacom,223474,16845,10
+26/01/2022,Arvin Bernhardi,Villa Soldati,electrodomésticos,Engel,344551,20715,5
+23/05/2022,Constantine Creeber,Avellaneda,PC armada,Nord,409623,23688,3
+20/06/2022,Em Edmonson,Palermo,equipos de audio,Samsonite,442837,21096,5
+17/06/2022,Dallis Beefon,Flores,notebook,Access,238391,21914,5
+24/01/2022,Angelita Lambkin,Villa Soldati,electrodomésticos,Belkin,99569,24215,10
+17/01/2022,Humfried Woodberry,Avellaneda,PC armada,Ubiquity,319068,21482,9
+31/03/2022,Timmy Ashlin,Paternal,TV,Trust,440522,20549,4
+23/06/2022,Dallis Beefon,San Martín,electrodomésticos,LG,127725,21544,7
+22/01/2022,Barde Benoist,Ezpeleta,notebook,Engel,315023,24783,4
+19/05/2022,Arvin Bernhardi,San Martín,equipos de audio,Vodafone,137710,16890,6
+05/01/2022,Mufi Panchin,Floresta,notebook,Access,298940,24275,6
+26/06/2022,Christel Zambonini,Avellaneda,notebook,Kensington,132666,21956,10
+13/03/2022,Cecil Apted,Floresta,TV,Vodafone,119867,17300,10
+23/02/2022,Dorotea Brandolini,Villa Bosch,notebook,Access,167140,20817,9
+11/02/2022,Cecil Apted,Villa Soldati,equipos de audio,Samsonite,379700,18946,7
+23/04/2022,Barde Benoist,Avellaneda,TV,Huawei,153517,21762,6
+23/06/2022,Angelita Lambkin,Floresta,PC armada,Netgear,228031,21486,7
+11/06/2022,Timmy Ashlin,Villa Soldati,PC armada,Vodafone,416230,23807,4
+13/02/2022,Mufi Panchin,Floresta,notebook,Samsung,236309,23013,3
+25/03/2022,Angelita Lambkin,Floresta,notebook,Xiaomi,129418,22146,8
+04/02/2022,Dorotea Brandolini,Paternal,equipos de audio,Trust,167671,17148,8
+16/03/2022,Pennie Hess,Palermo,PC armada,Huawei,390646,19877,10
+13/02/2022,Angelita Lambkin,Chacarita,electrodomésticos,Huawei,143811,24761,4
+25/01/2022,Humfried Woodberry,Recoleta,TV,Engel,233793,20081,4
+25/01/2022,Christel Zambonini,San Martín,equipos de audio,Huawei,378854,23518,7
+03/01/2022,Arvin Bernhardi,Ezeiza,equipos de video,Vodafone,150515,24735,6
+23/03/2022,Timmy Ashlin,Recoleta,PC armada,LG,377996,20217,7
+11/02/2022,Angelita Lambkin,Paternal,TV,Kensington,381899,21712,8
+13/01/2022,Cecil Apted,Paternal,electrodomésticos,LG,369628,25412,6
+09/01/2022,Dorotea Brandolini,Avellaneda,notebook,Conceptronic,409494,19389,6
+12/01/2022,Pennie Hess,San Nicolás,equipos de audio,Samsung,291825,17387,3
+03/02/2022,Dorotea Brandolini,Flores,PC armada,Corsair,146882,24142,7
+05/01/2022,Arvin Bernhardi,Flores,TV,Ubiquity,202429,19186,7
+24/02/2022,Dallis Beefon,Villa Soldati,equipos de audio,Toshiba,368971,16561,4
+27/01/2022,Dallis Beefon,Boedo,electrodomésticos,Wacom,324383,17835,10
+02/06/2022,Mufi Panchin,Villa Soldati,notebook,Toshiba,229185,18466,10
+06/04/2022,Dorotea Brandolini,Villa Soldati,electrodomésticos,Corsair,231468,22197,6
+19/03/2022,Ursuline Castilla,Avellaneda,TV,Samsung,152445,19382,3
+20/04/2022,Arvin Bernhardi,San Martín,electrodomésticos,Digitus,261757,17505,5
+27/01/2022,Timmy Ashlin,Villa Soldati,TV,LG,130933,17908,4
+22/02/2022,Constantine Creeber,Villa Bosch,electrodomésticos,Vodafone,312194,16935,9
+06/03/2022,Timmy Ashlin,Floresta,electrodomésticos,Samsung,344391,24103,7
+20/01/2022,Barde Benoist,Palermo,PC armada,Wacom,177375,22044,9
+05/05/2022,Em Edmonson,Flores,PC armada,Huawei,204010,19366,3
+18/03/2022,Dallis Beefon,Villa Bosch,PC armada,LG,295488,18961,5
+14/03/2022,Christel Zambonini,Boedo,notebook,Synology,368255,20783,6
+08/04/2022,Mufi Panchin,Floresta,PC armada,Conceptronic,407560,18442,7
+05/01/2022,Humfried Woodberry,Flores,TV,Belkin,112537,22146,8
+04/01/2022,Pennie Hess,San Nicolás,equipos de audio,Ubiquity,417108,22656,7
+29/05/2022,Dallis Beefon,Chacarita,notebook,Vodafone,225388,18670,6
+19/02/2022,Timmy Ashlin,San Martín,notebook,Huawei,310219,20539,5
+24/04/2022,Arvin Bernhardi,Chacarita,notebook,Startech,194051,25134,3
+10/06/2022,Timmy Ashlin,San Nicolás,equipos de video,Conceptronic,175175,18380,6
+10/01/2022,Dallis Beefon,Villa Crespo,notebook,Synology,101036,25402,5
+31/05/2022,Timmy Ashlin,San Nicolás,PC armada,Vodafone,316133,21437,4
+29/01/2022,Arvin Bernhardi,San Martín,electrodomésticos,Vodafone,117825,25289,10
+30/05/2022,Barde Benoist,Floresta,PC armada,LG,412923,20187,5
+14/02/2022,Cecil Apted,Ezpeleta,notebook,Millenium,443310,24458,3
+12/01/2022,Humfried Woodberry,Recoleta,PC armada,Trust,256302,25382,4
+28/05/2022,Mufi Panchin,Palermo,equipos de audio,Samsung,292279,18697,4
+19/06/2022,Timmy Ashlin,San Nicolás,equipos de audio,LG,173111,20662,5
+03/04/2022,Juliet Glynne,Chacarita,electrodomésticos,Startech,110809,16653,10
+17/05/2022,Cecil Apted,San Martín,equipos de video,Samsung,134946,20037,6
+23/05/2022,Em Edmonson,San Nicolás,notebook,Conceptronic,319103,23892,7
+07/04/2022,Dallis Beefon,Villa Crespo,equipos de video,Netgear,336593,22237,9
+23/03/2022,Em Edmonson,San Nicolás,equipos de video,Samsonite,384204,17989,3
+10/04/2022,Christel Zambonini,Ezpeleta,electrodomésticos,Wacom,197942,20388,6
+16/05/2022,Christel Zambonini,Villa Soldati,TV,Vodafone,259356,23099,6
+14/02/2022,Constantine Creeber,Villa Bosch,TV,Samsonite,137435,18811,5
+28/03/2022,Timmy Ashlin,Villa Bosch,notebook,Huawei,360866,19483,4
+12/05/2022,Dorotea Brandolini,Villa Bosch,PC armada,Xiaomi,457906,23385,6
+06/04/2022,Angelita Lambkin,Chacarita,equipos de video,Startech,259330,18999,3
+29/03/2022,Humfried Woodberry,San Martín,PC armada,Nord,206255,18452,7
+17/03/2022,Angelita Lambkin,Villa Bosch,electrodomésticos,Nord,405359,17253,8
+13/05/2022,Timmy Ashlin,Recoleta,equipos de video,Conceptronic,277604,19609,9
+31/03/2022,Pennie Hess,Flores,PC armada,Synology,107315,22149,6
+09/01/2022,Timmy Ashlin,Boedo,TV,Toshiba,255680,20176,9
+08/01/2022,Cecil Apted,Floresta,electrodomésticos,Wacom,286960,22317,7
+13/01/2022,Em Edmonson,San Nicolás,electrodomésticos,Xiaomi,247267,18718,7
+07/03/2022,Barde Benoist,San Martín,equipos de audio,Access,122900,23662,3
+21/06/2022,Juliet Glynne,Villa Bosch,equipos de video,Corsair,365355,21457,5
+22/04/2022,Em Edmonson,Villa Crespo,TV,Belkin,363336,16825,10
+13/04/2022,Angelita Lambkin,Flores,equipos de audio,Synology,443529,22753,10
+12/05/2022,Dallis Beefon,Villa Crespo,notebook,Conceptronic,222947,20304,5
+02/04/2022,Ursuline Castilla,San Nicolás,equipos de video,Digitus,255285,16901,6
+26/03/2022,Ursuline Castilla,Villa Crespo,electrodomésticos,Huawei,345799,24776,10
+15/01/2022,Cecil Apted,Recoleta,PC armada,Xiaomi,108603,22937,7
+14/03/2022,Constantine Creeber,Palermo,electrodomésticos,Wacom,214587,17464,7
+22/06/2022,Pennie Hess,Recoleta,equipos de video,Access,320296,18418,3
+25/05/2022,Mufi Panchin,Boedo,equipos de audio,Ubiquity,232783,19886,6
+28/04/2022,Pennie Hess,Villa Crespo,TV,Huawei,295987,17437,10
+26/05/2022,Mufi Panchin,Villa Bosch,notebook,Trust,177052,17939,9
+17/01/2022,Juliet Glynne,Flores,equipos de video,Netgear,101097,23527,7
+15/01/2022,Arvin Bernhardi,Palermo,equipos de audio,Xiaomi,366011,19748,8
+07/05/2022,Cecil Apted,Villa Bosch,equipos de video,Xiaomi,372660,22965,5
+05/06/2022,Christel Zambonini,Ezeiza,TV,LG,232428,20348,5
+19/03/2022,Humfried Woodberry,Avellaneda,TV,LG,403018,16730,8
+06/06/2022,Barde Benoist,San Nicolás,TV,Kensington,106126,19734,8
+13/04/2022,Dorotea Brandolini,San Nicolás,PC armada,Nord,191291,20314,6
+24/05/2022,Dallis Beefon,Chacarita,TV,LG,333655,18247,9
+05/04/2022,Ursuline Castilla,Villa Bosch,equipos de audio,Engel,291647,23506,5
+13/03/2022,Mufi Panchin,Villa Soldati,equipos de audio,Wacom,189213,21444,10
+08/05/2022,Timmy Ashlin,Ezeiza,PC armada,Xiaomi,302005,22099,5
+04/06/2022,Dallis Beefon,Paternal,PC armada,Xiaomi,337268,24567,7
+12/01/2022,Dallis Beefon,Avellaneda,electrodomésticos,Startech,382629,18625,8
+26/02/2022,Arvin Bernhardi,Villa Crespo,electrodomésticos,Netgear,170490,16871,9
+14/05/2022,Dallis Beefon,Villa Bosch,equipos de video,Conceptronic,429955,22991,6
+19/06/2022,Arvin Bernhardi,Boedo,equipos de video,Huawei,238262,18686,4
+13/01/2022,Barde Benoist,Ezeiza,equipos de audio,Startech,355701,22815,6
+06/05/2022,Cecil Apted,Villa Soldati,PC armada,Digitus,226876,22456,4
+25/01/2022,Christel Zambonini,Avellaneda,equipos de video,Conceptronic,124282,20715,6
+10/06/2022,Em Edmonson,Floresta,notebook,Belkin,161185,21239,5
+24/02/2022,Cecil Apted,Villa Bosch,notebook,Digitus,151829,19609,10
+17/03/2022,Humfried Woodberry,Avellaneda,electrodomésticos,Conceptronic,293331,19525,8
+17/03/2022,Christel Zambonini,Avellaneda,equipos de video,Digitus,280253,17872,8
+09/04/2022,Dorotea Brandolini,Villa Bosch,electrodomésticos,Synology,238070,21772,7
+05/01/2022,Barde Benoist,Ezpeleta,equipos de video,Millenium,141389,18468,6
+07/01/2022,Pennie Hess,Villa Bosch,equipos de video,Access,441578,19131,5
+17/02/2022,Christel Zambonini,San Nicolás,electrodomésticos,Vodafone,183226,23007,4
+08/04/2022,Ursuline Castilla,Villa Soldati,notebook,Synology,120018,25014,3
+01/05/2022,Timmy Ashlin,Villa Bosch,TV,Huawei,256936,22322,5
+31/05/2022,Pennie Hess,Villa Bosch,equipos de audio,Toshiba,230274,23116,7
+02/05/2022,Dallis Beefon,Chacarita,equipos de audio,Wacom,322324,17069,10
+21/02/2022,Angelita Lambkin,Recoleta,PC armada,Access,176822,24344,7
+17/01/2022,Cecil Apted,Floresta,TV,Vodafone,405270,24704,6
+10/05/2022,Pennie Hess,Ezpeleta,equipos de audio,Toshiba,352252,21878,10
+07/05/2022,Juliet Glynne,Paternal,PC armada,Nord,328790,22574,4
+09/06/2022,Cecil Apted,Boedo,PC armada,LG,436775,16538,6
+20/03/2022,Mufi Panchin,Villa Crespo,TV,Netgear,374262,19769,5
+13/01/2022,Barde Benoist,Boedo,TV,Engel,117357,19607,7
+08/04/2022,Ursuline Castilla,Floresta,equipos de audio,Samsonite,388914,17449,7
+20/06/2022,Cecil Apted,Palermo,notebook,Trust,457156,24582,7
+05/04/2022,Barde Benoist,Floresta,notebook,Access,242461,16717,10
+29/03/2022,Christel Zambonini,Recoleta,PC armada,Wacom,288257,18669,3
+14/05/2022,Dorotea Brandolini,Paternal,electrodomésticos,Startech,316277,18088,8
+04/04/2022,Arvin Bernhardi,San Martín,equipos de video,Corsair,217280,25320,7
+04/04/2022,Juliet Glynne,Avellaneda,notebook,Corsair,432489,23702,3
+14/03/2022,Humfried Woodberry,Palermo,PC armada,Access,174519,18808,10
+04/01/2022,Barde Benoist,Ezpeleta,electrodomésticos,Corsair,202874,23098,10
+27/05/2022,Christel Zambonini,Ezpeleta,equipos de audio,Xiaomi,317469,22449,8
+05/01/2022,Arvin Bernhardi,Avellaneda,TV,Synology,276581,17507,6
+13/01/2022,Juliet Glynne,San Martín,equipos de video,Access,285487,16793,8
+23/05/2022,Ursuline Castilla,Villa Crespo,equipos de audio,Samsonite,326352,16895,6
+24/05/2022,Ursuline Castilla,Villa Crespo,electrodomésticos,Nord,133788,22446,6
+18/06/2022,Angelita Lambkin,Palermo,equipos de video,Netgear,230125,23990,10
+27/04/2022,Dorotea Brandolini,Palermo,notebook,Samsonite,346044,20835,7
+14/03/2022,Dorotea Brandolini,Recoleta,TV,LG,255932,23929,4
+01/01/2022,Arvin Bernhardi,Recoleta,equipos de video,Belkin,217951,16799,10
+08/06/2022,Cecil Apted,Ezpeleta,electrodomésticos,Netgear,178750,16687,3
+05/01/2022,Cecil Apted,San Nicolás,notebook,Millenium,279837,16981,4
+20/01/2022,Pennie Hess,Villa Bosch,TV,Netgear,383992,20912,9
+18/03/2022,Pennie Hess,Paternal,equipos de video,Vodafone,308919,24973,9
+10/05/2022,Ursuline Castilla,Villa Crespo,equipos de audio,Netgear,228293,24384,4
+14/03/2022,Barde Benoist,Floresta,PC armada,Corsair,132328,22730,9
+06/02/2022,Angelita Lambkin,Palermo,equipos de video,Huawei,418923,23322,7
+19/03/2022,Dorotea Brandolini,San Nicolás,PC armada,Trust,192162,20334,4
+04/03/2022,Cecil Apted,San Martín,electrodomésticos,Nord,229148,24839,5
+14/02/2022,Angelita Lambkin,Ezeiza,electrodomésticos,Digitus,134765,22930,4
+10/03/2022,Cecil Apted,Boedo,TV,Trust,389929,21281,6
+12/06/2022,Mufi Panchin,Recoleta,equipos de video,Synology,128220,23825,7
+13/01/2022,Cecil Apted,Villa Crespo,electrodomésticos,Samsonite,211999,18076,5
+09/02/2022,Dorotea Brandolini,Paternal,electrodomésticos,Digitus,390793,22365,7
+12/04/2022,Ursuline Castilla,San Martín,electrodomésticos,Vodafone,364383,17768,6
+20/03/2022,Humfried Woodberry,Villa Crespo,TV,Xiaomi,113808,20135,4
+18/05/2022,Christel Zambonini,Chacarita,PC armada,Samsung,125735,23887,3
+18/03/2022,Cecil Apted,Flores,PC armada,Trust,293711,22769,9
+05/04/2022,Humfried Woodberry,Recoleta,PC armada,Huawei,261353,23414,3
+14/02/2022,Arvin Bernhardi,Villa Crespo,PC armada,Synology,323191,21764,8
+11/03/2022,Cecil Apted,Ezpeleta,notebook,Vodafone,145130,18018,5
+13/02/2022,Humfried Woodberry,San Martín,electrodomésticos,Toshiba,153233,19772,3
+23/04/2022,Dallis Beefon,Boedo,TV,Synology,168810,18563,9
+30/01/2022,Juliet Glynne,Chacarita,PC armada,Vodafone,346393,18089,8
+26/06/2022,Ursuline Castilla,Villa Soldati,electrodomésticos,Synology,302007,22905,6
+16/05/2022,Dallis Beefon,Palermo,equipos de video,Netgear,186895,23772,10
+03/03/2022,Arvin Bernhardi,Villa Bosch,TV,Kensington,420187,21907,9
+18/04/2022,Angelita Lambkin,Boedo,notebook,Millenium,438897,22242,6
+11/04/2022,Humfried Woodberry,Villa Crespo,TV,Conceptronic,242783,23733,5
+22/05/2022,Cecil Apted,Villa Soldati,PC armada,LG,284357,21493,5
+31/05/2022,Pennie Hess,San Nicolás,equipos de audio,Kensington,363538,19762,7
+07/06/2022,Dorotea Brandolini,Villa Soldati,PC armada,Vodafone,306030,20651,3
+04/03/2022,Humfried Woodberry,Villa Bosch,electrodomésticos,Synology,204298,17818,5
+01/05/2022,Juliet Glynne,Paternal,PC armada,LG,221211,19275,8
+07/06/2022,Timmy Ashlin,Avellaneda,TV,Synology,341417,21804,3
+29/05/2022,Angelita Lambkin,Palermo,notebook,Digitus,364599,17313,10
+17/04/2022,Christel Zambonini,San Martín,notebook,Trust,289777,25047,9
+09/06/2022,Timmy Ashlin,Villa Bosch,notebook,Toshiba,273441,17050,5
+07/06/2022,Humfried Woodberry,Paternal,equipos de audio,Wacom,157097,17011,6
+21/04/2022,Christel Zambonini,San Martín,equipos de audio,Nord,371265,24965,9
+25/01/2022,Mufi Panchin,Avellaneda,notebook,Millenium,420660,16899,6
+07/03/2022,Pennie Hess,Chacarita,TV,Samsonite,351388,23075,7
+29/03/2022,Ursuline Castilla,San Martín,equipos de audio,Engel,432270,24487,10
+02/01/2022,Mufi Panchin,Flores,notebook,Samsonite,438053,19276,8
+19/03/2022,Timmy Ashlin,Villa Soldati,electrodomésticos,Millenium,348012,25468,9
+04/02/2022,Cecil Apted,Recoleta,electrodomésticos,LG,174007,25511,3
+24/04/2022,Dorotea Brandolini,Ezpeleta,TV,Millenium,103380,19118,10
+11/01/2022,Juliet Glynne,Chacarita,PC armada,Netgear,127652,16905,8
+19/05/2022,Christel Zambonini,Floresta,electrodomésticos,Toshiba,407749,24119,7
+09/04/2022,Humfried Woodberry,Boedo,electrodomésticos,Trust,237072,20357,9
+30/01/2022,Constantine Creeber,San Nicolás,equipos de video,Samsonite,386113,22011,10
+27/05/2022,Barde Benoist,Ezpeleta,equipos de audio,Engel,395398,17549,6
+22/02/2022,Em Edmonson,Flores,electrodomésticos,Ubiquity,441115,20577,8
+08/05/2022,Cecil Apted,Boedo,TV,Access,331353,23999,3
+14/01/2022,Dallis Beefon,Villa Soldati,equipos de video,Vodafone,236201,22162,3
+24/03/2022,Em Edmonson,Ezeiza,equipos de audio,LG,307973,17687,5
+10/02/2022,Em Edmonson,Flores,TV,Vodafone,288346,20487,3
+07/04/2022,Pennie Hess,Flores,equipos de audio,Trust,372622,23430,6
+17/03/2022,Barde Benoist,Villa Bosch,notebook,Access,389311,22323,10
+19/03/2022,Dallis Beefon,Palermo,TV,Engel,126199,18456,5
+23/03/2022,Pennie Hess,Palermo,equipos de audio,Engel,276085,20059,4
+12/02/2022,Mufi Panchin,Villa Crespo,equipos de audio,Synology,336390,20754,5
+24/02/2022,Juliet Glynne,Ezeiza,equipos de audio,Engel,274517,19300,3
+05/04/2022,Em Edmonson,Flores,notebook,Huawei,203674,17834,8
+06/03/2022,Juliet Glynne,Avellaneda,notebook,Ubiquity,159737,19543,3
+24/06/2022,Christel Zambonini,Villa Crespo,equipos de video,Nord,212136,18546,3
+02/03/2022,Barde Benoist,Floresta,PC armada,Millenium,327037,17163,4
+14/02/2022,Dorotea Brandolini,San Nicolás,TV,Trust,141236,17443,5
+08/05/2022,Dallis Beefon,San Martín,TV,Huawei,456288,23716,5
+24/05/2022,Barde Benoist,Villa Soldati,electrodomésticos,Vodafone,205860,20562,8
+20/06/2022,Barde Benoist,San Martín,electrodomésticos,Vodafone,238936,18051,6
+27/04/2022,Cecil Apted,Villa Crespo,notebook,LG,256626,21192,5
+21/02/2022,Mufi Panchin,Villa Crespo,notebook,Kensington,323514,24742,5
+10/01/2022,Mufi Panchin,Recoleta,PC armada,Ubiquity,137832,23828,9
+23/06/2022,Angelita Lambkin,Recoleta,PC armada,Belkin,370806,18675,6
+16/06/2022,Constantine Creeber,Boedo,equipos de video,Engel,398682,21348,10
+11/03/2022,Mufi Panchin,Avellaneda,equipos de audio,Samsonite,290451,23542,8
+05/06/2022,Dallis Beefon,Flores,electrodomésticos,Synology,303893,19376,5
+22/03/2022,Juliet Glynne,Villa Bosch,equipos de video,Millenium,414689,17433,6
+22/06/2022,Juliet Glynne,Flores,TV,Netgear,170303,17449,8
+08/02/2022,Arvin Bernhardi,Ezeiza,TV,Huawei,164155,18153,7
+30/05/2022,Mufi Panchin,Recoleta,TV,Netgear,300979,24825,5
+22/01/2022,Juliet Glynne,Avellaneda,notebook,Toshiba,285531,23827,3
+23/06/2022,Pennie Hess,Boedo,equipos de video,Huawei,354273,24220,6
+19/05/2022,Constantine Creeber,Avellaneda,TV,Access,121037,22885,3
+09/02/2022,Mufi Panchin,Floresta,TV,Trust,308151,25120,5
+13/03/2022,Dallis Beefon,Avellaneda,electrodomésticos,Belkin,335535,22728,9
+30/03/2022,Pennie Hess,Chacarita,equipos de video,Nord,135629,24473,10
+17/02/2022,Pennie Hess,Villa Soldati,equipos de audio,Toshiba,423579,22074,3
+30/05/2022,Em Edmonson,Ezpeleta,TV,Conceptronic,260877,21520,6
+30/03/2022,Barde Benoist,San Martín,PC armada,Access,350851,25361,4
+02/02/2022,Dallis Beefon,Paternal,equipos de video,Vodafone,125991,24496,5
+12/06/2022,Christel Zambonini,Flores,PC armada,Samsung,262838,21567,5
+09/01/2022,Dorotea Brandolini,Flores,equipos de audio,Millenium,314973,25534,8
+04/05/2022,Christel Zambonini,Ezpeleta,TV,Ubiquity,440590,24120,10
+24/02/2022,Cecil Apted,San Nicolás,equipos de video,Vodafone,189934,21034,3
+18/05/2022,Dorotea Brandolini,San Nicolás,PC armada,Corsair,171095,23618,8
+15/02/2022,Timmy Ashlin,Recoleta,TV,Huawei,110809,17949,6
+11/01/2022,Ursuline Castilla,Villa Soldati,equipos de video,Digitus,225322,18614,4
+08/06/2022,Constantine Creeber,San Martín,PC armada,Netgear,131508,20546,3
+21/03/2022,Arvin Bernhardi,San Nicolás,PC armada,LG,276446,23956,6
+26/04/2022,Arvin Bernhardi,Ezpeleta,equipos de video,Conceptronic,356835,21343,7
+28/05/2022,Barde Benoist,Paternal,PC armada,Corsair,221603,21883,9
+03/06/2022,Timmy Ashlin,Boedo,electrodomésticos,Access,403225,23946,6
+09/06/2022,Dallis Beefon,Ezpeleta,TV,Toshiba,413230,21337,4
+13/03/2022,Cecil Apted,Flores,notebook,Synology,416244,20176,9
+10/02/2022,Dorotea Brandolini,Paternal,equipos de video,Netgear,187097,24309,3
+06/06/2022,Angelita Lambkin,San Nicolás,notebook,Toshiba,229624,21686,6
+09/04/2022,Cecil Apted,Avellaneda,PC armada,Corsair,295101,16887,8
+27/05/2022,Juliet Glynne,Paternal,PC armada,Wacom,274025,23744,3
+24/03/2022,Pennie Hess,Paternal,PC armada,Vodafone,420444,20244,7
+14/02/2022,Angelita Lambkin,Villa Crespo,electrodomésticos,Startech,379929,18592,4
+03/02/2022,Cecil Apted,Ezeiza,electrodomésticos,Samsung,408721,17079,7
+08/05/2022,Angelita Lambkin,Villa Crespo,equipos de video,Belkin,308495,22266,10
+07/06/2022,Angelita Lambkin,Boedo,equipos de audio,Corsair,356025,17273,10
+29/04/2022,Dallis Beefon,Floresta,TV,Belkin,364730,24944,6
+01/01/2022,Angelita Lambkin,Villa Crespo,PC armada,Synology,234704,24563,8
+09/01/2022,Em Edmonson,Villa Crespo,electrodomésticos,Netgear,244664,21970,9
+15/04/2022,Cecil Apted,Flores,equipos de audio,Corsair,328018,21388,10
+16/06/2022,Dorotea Brandolini,Paternal,equipos de audio,Synology,183963,16954,3
+14/03/2022,Pennie Hess,San Martín,TV,Startech,159810,23395,5
+17/02/2022,Arvin Bernhardi,Paternal,notebook,LG,136617,23615,4
+14/01/2022,Em Edmonson,San Martín,notebook,Belkin,404333,23306,5
+19/03/2022,Mufi Panchin,Floresta,electrodomésticos,Engel,253812,16769,6
+13/04/2022,Pennie Hess,Villa Soldati,PC armada,Xiaomi,114338,17910,5
+21/06/2022,Humfried Woodberry,San Martín,TV,Huawei,117091,23143,10
+11/04/2022,Dorotea Brandolini,Recoleta,equipos de video,Nord,368655,18078,6
+24/04/2022,Angelita Lambkin,Palermo,notebook,Vodafone,293771,21102,10
+30/01/2022,Mufi Panchin,Villa Bosch,notebook,Access,433667,24607,7
+07/03/2022,Christel Zambonini,Palermo,equipos de video,Digitus,159944,25056,7
+23/06/2022,Constantine Creeber,San Martín,electrodomésticos,Conceptronic,410024,19955,3
+11/03/2022,Cecil Apted,Flores,PC armada,Kensington,398761,17334,3
+26/03/2022,Timmy Ashlin,San Martín,notebook,Huawei,383721,17810,8
+31/05/2022,Constantine Creeber,Flores,PC armada,Digitus,380776,20722,10
+13/05/2022,Mufi Panchin,San Martín,equipos de video,Nord,317915,24669,9
+11/03/2022,Mufi Panchin,Villa Bosch,electrodomésticos,Engel,382571,23265,5
+05/01/2022,Cecil Apted,Floresta,notebook,Toshiba,226807,20229,8
+01/02/2022,Ursuline Castilla,Recoleta,PC armada,Wacom,263855,19098,9
+11/03/2022,Pennie Hess,Palermo,notebook,Synology,137387,19291,6
+27/05/2022,Cecil Apted,San Martín,electrodomésticos,Synology,412352,22649,7
+21/02/2022,Em Edmonson,Flores,TV,Vodafone,226724,19047,6
+19/05/2022,Barde Benoist,Villa Soldati,TV,Netgear,443819,21379,4
+21/04/2022,Mufi Panchin,Ezpeleta,notebook,LG,290183,17558,10
+19/05/2022,Dallis Beefon,San Martín,PC armada,Startech,319145,18158,5
+03/04/2022,Angelita Lambkin,Floresta,equipos de audio,Wacom,344986,16695,10
+21/06/2022,Constantine Creeber,Ezpeleta,equipos de audio,Xiaomi,457338,20666,4
+19/02/2022,Cecil Apted,Chacarita,TV,LG,184029,18294,8
+23/02/2022,Cecil Apted,Palermo,TV,Samsonite,253496,17907,6
+25/06/2022,Arvin Bernhardi,Avellaneda,PC armada,Toshiba,292557,18607,6
+13/04/2022,Angelita Lambkin,Villa Soldati,TV,Samsonite,140209,21030,8
+13/05/2022,Dorotea Brandolini,Ezeiza,equipos de audio,Conceptronic,154433,23838,7
+25/04/2022,Barde Benoist,Chacarita,notebook,Huawei,458339,23038,6
+12/06/2022,Mufi Panchin,Palermo,notebook,Samsonite,342807,17876,6
+13/04/2022,Dallis Beefon,Chacarita,TV,Toshiba,327006,24226,10
+06/03/2022,Angelita Lambkin,Recoleta,PC armada,Startech,267174,20456,5
+04/06/2022,Christel Zambonini,Paternal,electrodomésticos,Millenium,426089,21154,7
+23/01/2022,Constantine Creeber,Flores,TV,Toshiba,232717,18534,10
+06/01/2022,Ursuline Castilla,Villa Crespo,electrodomésticos,Belkin,184486,18346,4
+21/03/2022,Pennie Hess,San Nicolás,equipos de audio,Engel,154482,18660,6
+28/05/2022,Mufi Panchin,Boedo,electrodomésticos,Ubiquity,269422,19399,6
+02/01/2022,Humfried Woodberry,Ezpeleta,PC armada,Millenium,311735,20630,10
+21/02/2022,Humfried Woodberry,Villa Bosch,electrodomésticos,Samsonite,372537,24517,6
+27/01/2022,Barde Benoist,Paternal,PC armada,Samsonite,454531,18169,10
+15/02/2022,Christel Zambonini,Boedo,equipos de audio,Access,225062,23771,6
+03/03/2022,Timmy Ashlin,Villa Soldati,equipos de video,Samsung,249048,17420,4
+26/04/2022,Constantine Creeber,Villa Bosch,notebook,Millenium,334353,23371,3
+02/05/2022,Arvin Bernhardi,Palermo,notebook,Kensington,292102,23161,5
+02/03/2022,Cecil Apted,Villa Soldati,equipos de audio,Corsair,426114,17480,10
+02/05/2022,Ursuline Castilla,Avellaneda,equipos de video,Access,170188,17626,7
+23/06/2022,Pennie Hess,Ezpeleta,notebook,Toshiba,451085,24096,10
+12/02/2022,Em Edmonson,Avellaneda,TV,Access,152383,24093,5
+21/06/2022,Humfried Woodberry,San Martín,notebook,Corsair,440641,19741,9
+06/01/2022,Timmy Ashlin,Boedo,TV,Samsung,384577,25542,3
+21/06/2022,Arvin Bernhardi,Recoleta,equipos de audio,Corsair,247187,17361,3
+11/06/2022,Mufi Panchin,Villa Soldati,equipos de video,Huawei,238920,20524,9
+12/02/2022,Humfried Woodberry,Paternal,electrodomésticos,Conceptronic,445284,17922,5
+07/04/2022,Pennie Hess,Villa Soldati,electrodomésticos,Startech,282901,17378,8
+04/06/2022,Barde Benoist,Paternal,equipos de video,Samsung,440103,19585,8
+22/05/2022,Angelita Lambkin,Flores,TV,Wacom,228977,22165,9
+06/04/2022,Pennie Hess,Boedo,equipos de audio,Conceptronic,449460,24679,9
+01/03/2022,Dorotea Brandolini,Ezeiza,PC armada,Netgear,317514,21109,8
+09/04/2022,Barde Benoist,Chacarita,notebook,Vodafone,312652,22374,5
+03/06/2022,Humfried Woodberry,Floresta,PC armada,Wacom,374320,19057,6
+17/03/2022,Christel Zambonini,Ezeiza,notebook,Samsung,105891,23328,8
+14/02/2022,Humfried Woodberry,Palermo,PC armada,Startech,227569,16691,10
+07/04/2022,Dallis Beefon,Recoleta,PC armada,Kensington,376764,17121,5
+22/03/2022,Mufi Panchin,Palermo,electrodomésticos,Trust,316419,23220,3
+11/02/2022,Juliet Glynne,San Nicolás,notebook,Trust,433788,16694,5
+21/01/2022,Pennie Hess,San Nicolás,electrodomésticos,Belkin,340721,24858,10
+05/05/2022,Mufi Panchin,Floresta,equipos de audio,Vodafone,160062,19217,6
+20/04/2022,Ursuline Castilla,Villa Bosch,notebook,Samsung,446050,20956,7
+05/06/2022,Humfried Woodberry,San Nicolás,equipos de audio,Kensington,357791,18678,8
+19/01/2022,Timmy Ashlin,Villa Soldati,equipos de audio,Synology,355994,18163,10
+21/06/2022,Em Edmonson,Ezpeleta,TV,Access,152695,22109,7
+30/01/2022,Humfried Woodberry,Avellaneda,equipos de video,Samsonite,133354,21236,4
+08/05/2022,Juliet Glynne,Paternal,notebook,Trust,117094,23056,4
+26/01/2022,Arvin Bernhardi,San Nicolás,notebook,Synology,322962,22484,9
+03/01/2022,Dorotea Brandolini,Paternal,notebook,Xiaomi,321203,21934,7
+18/02/2022,Ursuline Castilla,Ezeiza,electrodomésticos,Ubiquity,201520,23544,5
+12/04/2022,Em Edmonson,Floresta,equipos de audio,Vodafone,241507,19019,3
+25/05/2022,Barde Benoist,San Nicolás,equipos de audio,Trust,334255,25390,7
+01/06/2022,Dorotea Brandolini,Recoleta,notebook,LG,383326,17509,9
+18/05/2022,Christel Zambonini,Flores,PC armada,Digitus,247874,18629,9
+22/02/2022,Angelita Lambkin,Ezeiza,PC armada,Startech,342590,19691,3
+11/04/2022,Humfried Woodberry,Floresta,notebook,Conceptronic,220768,22895,7
+07/03/2022,Arvin Bernhardi,Paternal,equipos de video,Millenium,322288,17945,3
+24/03/2022,Humfried Woodberry,Paternal,notebook,Access,348714,25244,9
+19/01/2022,Barde Benoist,Palermo,electrodomésticos,Startech,167970,25292,9
+18/06/2022,Cecil Apted,Paternal,notebook,Synology,248332,21152,9
+28/01/2022,Constantine Creeber,Ezeiza,TV,Xiaomi,316954,21872,5
+09/03/2022,Arvin Bernhardi,Ezpeleta,PC armada,Engel,369365,23766,10
+02/06/2022,Juliet Glynne,Ezeiza,electrodomésticos,Xiaomi,296856,22604,3
+18/05/2022,Dallis Beefon,Villa Bosch,notebook,Samsung,247652,19235,7
+23/06/2022,Pennie Hess,Flores,TV,Engel,445121,21617,7
+23/02/2022,Em Edmonson,San Nicolás,equipos de video,Corsair,265033,24377,4
+02/03/2022,Dallis Beefon,Ezeiza,electrodomésticos,Belkin,458624,19759,7
+04/06/2022,Pennie Hess,Floresta,TV,Toshiba,162756,23806,9
+07/06/2022,Dallis Beefon,Villa Bosch,PC armada,Ubiquity,203898,23105,9
+22/02/2022,Christel Zambonini,Avellaneda,PC armada,Startech,258904,19473,9
+25/01/2022,Ursuline Castilla,Chacarita,PC armada,Startech,382837,18651,8
+08/03/2022,Em Edmonson,San Nicolás,electrodomésticos,Kensington,457018,24618,7
+10/06/2022,Angelita Lambkin,Avellaneda,notebook,Vodafone,162499,24094,9
+26/06/2022,Em Edmonson,Villa Crespo,equipos de audio,Conceptronic,197456,20132,9
+27/05/2022,Christel Zambonini,Villa Crespo,equipos de video,Nord,293005,23265,8
+23/03/2022,Juliet Glynne,Floresta,equipos de video,Belkin,148417,20720,7
+05/02/2022,Juliet Glynne,Recoleta,TV,Nord,375361,23167,4
+26/05/2022,Barde Benoist,Villa Bosch,notebook,LG,389942,22286,9
+01/05/2022,Humfried Woodberry,Palermo,equipos de video,Huawei,219905,21419,7
+22/02/2022,Mufi Panchin,San Nicolás,PC armada,Wacom,118917,21691,8
+18/02/2022,Dorotea Brandolini,Villa Crespo,TV,Kensington,159596,20802,3
+17/06/2022,Ursuline Castilla,Flores,notebook,Digitus,458199,21928,9
+19/02/2022,Timmy Ashlin,San Nicolás,notebook,Corsair,418988,22586,4
+18/04/2022,Dallis Beefon,Villa Crespo,equipos de video,Trust,118423,23138,6
+16/04/2022,Constantine Creeber,Villa Soldati,electrodomésticos,Wacom,177940,22815,5
+17/04/2022,Constantine Creeber,Paternal,TV,Netgear,275529,23828,5
+07/04/2022,Arvin Bernhardi,Boedo,equipos de video,Synology,457951,20525,10
+05/01/2022,Em Edmonson,Villa Bosch,notebook,LG,162237,16647,9
+27/06/2022,Timmy Ashlin,Chacarita,TV,Samsung,221019,22699,7
+18/03/2022,Ursuline Castilla,Flores,equipos de video,Netgear,402604,23559,3
+18/04/2022,Ursuline Castilla,San Nicolás,PC armada,Xiaomi,188279,18151,8
+05/03/2022,Angelita Lambkin,Floresta,equipos de video,Kensington,207044,23618,3
+04/06/2022,Pennie Hess,Chacarita,TV,Huawei,215131,17643,7
+26/02/2022,Ursuline Castilla,Villa Soldati,notebook,Kensington,179420,24863,6
+27/01/2022,Christel Zambonini,Recoleta,TV,Nord,284781,21241,10
+02/02/2022,Em Edmonson,Villa Crespo,equipos de audio,Xiaomi,336159,24710,6
+17/06/2022,Timmy Ashlin,Ezeiza,notebook,Netgear,391814,23466,3
+24/02/2022,Juliet Glynne,Paternal,notebook,Nord,331181,23717,4
+16/03/2022,Em Edmonson,San Nicolás,equipos de audio,Trust,438852,25460,9
+29/01/2022,Constantine Creeber,San Nicolás,TV,Xiaomi,105582,19046,9
+01/04/2022,Ursuline Castilla,San Martín,TV,Kensington,164962,18307,8
+21/06/2022,Mufi Panchin,Recoleta,TV,Wacom,219336,24445,7
+21/04/2022,Arvin Bernhardi,Paternal,TV,Millenium,386667,22694,10
+31/03/2022,Angelita Lambkin,Paternal,TV,Trust,198108,17490,9
+18/04/2022,Cecil Apted,Boedo,electrodomésticos,Ubiquity,183234,22552,3
+29/05/2022,Dorotea Brandolini,Villa Bosch,TV,Synology,114639,19874,6
+30/04/2022,Timmy Ashlin,Floresta,electrodomésticos,Samsung,136423,20084,3
+08/01/2022,Pennie Hess,Villa Bosch,PC armada,Samsonite,285657,20290,8
+30/01/2022,Mufi Panchin,Chacarita,TV,Belkin,336582,24316,4
+17/01/2022,Cecil Apted,Recoleta,notebook,Millenium,384210,18811,8
+07/04/2022,Timmy Ashlin,Ezeiza,electrodomésticos,Corsair,141516,24904,7
+03/06/2022,Cecil Apted,Villa Crespo,equipos de video,LG,204789,22945,3
+07/06/2022,Cecil Apted,Recoleta,TV,Digitus,171039,25278,4
+03/05/2022,Mufi Panchin,Flores,equipos de audio,Ubiquity,382384,21853,9
+15/06/2022,Pennie Hess,Paternal,equipos de video,Digitus,124867,23391,10
+03/03/2022,Mufi Panchin,Avellaneda,equipos de audio,Synology,429103,16590,9
+01/06/2022,Arvin Bernhardi,Palermo,electrodomésticos,Wacom,149734,19162,9
+05/05/2022,Ursuline Castilla,San Martín,equipos de video,Samsonite,396627,18734,3
+27/02/2022,Humfried Woodberry,San Nicolás,PC armada,Access,120505,16818,9
+04/06/2022,Barde Benoist,Boedo,equipos de video,LG,134708,24776,4
+08/05/2022,Angelita Lambkin,Villa Soldati,notebook,Wacom,247648,20549,6
+24/02/2022,Juliet Glynne,San Nicolás,TV,Ubiquity,199569,18132,4
+11/01/2022,Humfried Woodberry,Palermo,TV,Startech,314689,23308,7
+04/03/2022,Mufi Panchin,Villa Bosch,TV,Samsung,359254,23177,5
+01/06/2022,Juliet Glynne,Villa Soldati,equipos de video,Startech,150211,17717,9
+21/02/2022,Mufi Panchin,San Martín,notebook,Synology,441244,19862,10
+10/01/2022,Timmy Ashlin,Floresta,equipos de audio,Engel,369135,23101,3
+13/04/2022,Arvin Bernhardi,Boedo,equipos de video,Samsung,310257,24749,3
+12/01/2022,Constantine Creeber,Flores,notebook,Huawei,210243,17246,3
+09/06/2022,Arvin Bernhardi,Boedo,TV,Toshiba,337435,22246,3
+18/03/2022,Angelita Lambkin,Ezeiza,equipos de audio,Digitus,186820,24113,3
+23/02/2022,Barde Benoist,San Martín,electrodomésticos,Startech,237411,18947,10
+31/05/2022,Dallis Beefon,Boedo,PC armada,LG,223025,24404,9
+27/04/2022,Mufi Panchin,Chacarita,electrodomésticos,Belkin,348975,24075,9
+21/06/2022,Dorotea Brandolini,Avellaneda,equipos de video,Synology,317174,20081,10
+28/04/2022,Constantine Creeber,Palermo,electrodomésticos,Conceptronic,362101,23829,7
+30/04/2022,Barde Benoist,Flores,equipos de audio,Belkin,253469,25007,6
+30/01/2022,Cecil Apted,Chacarita,equipos de video,LG,366538,23406,3
+26/01/2022,Dallis Beefon,Palermo,TV,Nord,232994,23645,10
+12/05/2022,Arvin Bernhardi,Ezeiza,equipos de audio,Samsonite,360553,22931,8
+13/02/2022,Angelita Lambkin,Palermo,notebook,Synology,258518,20140,3
+10/06/2022,Cecil Apted,Ezeiza,electrodomésticos,Millenium,426016,20431,6
+16/01/2022,Cecil Apted,Villa Bosch,notebook,Samsonite,456918,18172,6
+01/02/2022,Dallis Beefon,Recoleta,PC armada,Digitus,155840,21638,9
+03/04/2022,Pennie Hess,Floresta,notebook,Access,383409,16802,7
+17/03/2022,Angelita Lambkin,San Nicolás,equipos de audio,Belkin,218842,23372,3
+14/01/2022,Juliet Glynne,Avellaneda,PC armada,Conceptronic,182052,21065,9
+21/02/2022,Dallis Beefon,Villa Bosch,notebook,Ubiquity,132714,24027,6
+03/05/2022,Dallis Beefon,Chacarita,electrodomésticos,Corsair,392616,22412,6
+03/05/2022,Dorotea Brandolini,Avellaneda,TV,Access,132083,25365,4
+23/05/2022,Dorotea Brandolini,Recoleta,PC armada,Wacom,126323,20107,3
+19/03/2022,Ursuline Castilla,Avellaneda,notebook,Netgear,368596,20586,4
+21/03/2022,Angelita Lambkin,Ezeiza,PC armada,Samsung,366201,16806,3
+25/01/2022,Juliet Glynne,Ezpeleta,PC armada,Samsung,152034,19333,7
+28/06/2022,Timmy Ashlin,Villa Bosch,electrodomésticos,Startech,316966,25054,4
+25/02/2022,Timmy Ashlin,Avellaneda,PC armada,Netgear,346276,23481,5
+03/05/2022,Dorotea Brandolini,Villa Soldati,equipos de video,Engel,389541,18793,6
+21/05/2022,Mufi Panchin,Floresta,TV,LG,166119,22512,4
+13/03/2022,Humfried Woodberry,Boedo,notebook,Kensington,255784,19287,5
+02/03/2022,Timmy Ashlin,Villa Soldati,equipos de audio,Vodafone,345229,22541,10
+03/06/2022,Angelita Lambkin,Paternal,equipos de audio,Synology,367464,25428,6
+13/03/2022,Timmy Ashlin,Recoleta,equipos de audio,Ubiquity,324472,21532,8
+17/02/2022,Juliet Glynne,Ezpeleta,equipos de audio,Xiaomi,195390,21987,6
+27/03/2022,Dallis Beefon,Villa Crespo,equipos de video,Conceptronic,133236,20677,7
+27/04/2022,Angelita Lambkin,Ezeiza,electrodomésticos,Huawei,334749,17946,9
+29/04/2022,Mufi Panchin,San Nicolás,TV,Samsonite,229718,19129,5
+01/05/2022,Constantine Creeber,Villa Crespo,equipos de audio,Vodafone,297912,24775,3
+22/06/2022,Dorotea Brandolini,Ezpeleta,equipos de audio,Vodafone,436809,20860,9
+29/05/2022,Humfried Woodberry,San Nicolás,notebook,Digitus,201594,21036,3
+30/01/2022,Ursuline Castilla,Recoleta,notebook,Ubiquity,308296,17634,3
+24/06/2022,Cecil Apted,Villa Bosch,electrodomésticos,Startech,442226,20783,7
+23/03/2022,Arvin Bernhardi,Ezeiza,notebook,Corsair,233498,22302,8
+05/04/2022,Dallis Beefon,San Nicolás,TV,Synology,270969,19936,5
+19/05/2022,Ursuline Castilla,Villa Crespo,notebook,LG,253301,22838,10
+16/01/2022,Ursuline Castilla,San Nicolás,PC armada,Ubiquity,187639,22190,5
+07/05/2022,Em Edmonson,Ezeiza,equipos de audio,Millenium,427793,25478,7
+23/04/2022,Pennie Hess,Ezeiza,PC armada,Netgear,140451,19685,5
+06/02/2022,Mufi Panchin,Palermo,TV,Wacom,368160,22978,5
+05/05/2022,Mufi Panchin,Floresta,TV,Wacom,365089,19844,6
+21/03/2022,Pennie Hess,Palermo,electrodomésticos,Kensington,196273,23863,9
+22/02/2022,Timmy Ashlin,Flores,electrodomésticos,Belkin,351177,24518,7
+04/05/2022,Mufi Panchin,Chacarita,equipos de video,Vodafone,400679,22697,3
+01/05/2022,Timmy Ashlin,Chacarita,TV,Vodafone,451366,17910,9
+27/04/2022,Barde Benoist,Paternal,equipos de video,Nord,320985,24162,5
+07/05/2022,Angelita Lambkin,Recoleta,equipos de audio,Trust,250151,22548,10
+23/03/2022,Arvin Bernhardi,Ezpeleta,PC armada,Xiaomi,107160,24574,4
+30/01/2022,Angelita Lambkin,Paternal,equipos de video,Conceptronic,100842,23834,9
+05/03/2022,Arvin Bernhardi,Floresta,TV,Corsair,447134,18186,8
+15/05/2022,Dorotea Brandolini,Paternal,notebook,Millenium,260585,22600,4
+03/04/2022,Em Edmonson,Villa Crespo,electrodomésticos,Ubiquity,169145,22521,10
+28/06/2022,Pennie Hess,Palermo,electrodomésticos,Startech,310393,21833,8
+09/01/2022,Barde Benoist,Floresta,equipos de video,Digitus,313761,23704,3
+28/04/2022,Arvin Bernhardi,Chacarita,TV,Digitus,356817,22129,9
+28/03/2022,Humfried Woodberry,Palermo,equipos de audio,LG,124922,19675,6
+17/02/2022,Mufi Panchin,San Martín,PC armada,Netgear,188894,17534,5
+07/01/2022,Ursuline Castilla,Chacarita,electrodomésticos,Conceptronic,344773,19523,5
+21/03/2022,Pennie Hess,Paternal,PC armada,Huawei,296332,21247,5
+27/04/2022,Mufi Panchin,Boedo,PC armada,Huawei,451575,23051,8
+02/06/2022,Juliet Glynne,Floresta,PC armada,LG,189238,20823,5
+31/01/2022,Christel Zambonini,San Martín,PC armada,Engel,359456,18254,6
+30/01/2022,Christel Zambonini,Ezeiza,PC armada,Synology,401271,19866,5
+30/05/2022,Ursuline Castilla,Avellaneda,electrodomésticos,Trust,311373,20466,3
+13/03/2022,Timmy Ashlin,Recoleta,TV,Wacom,102269,23291,4
+17/06/2022,Timmy Ashlin,Paternal,equipos de audio,Ubiquity,430487,24143,9
+09/06/2022,Juliet Glynne,Avellaneda,equipos de audio,Samsonite,330090,18438,9
+26/05/2022,Dallis Beefon,Flores,electrodomésticos,Samsonite,147176,20773,9
+24/01/2022,Christel Zambonini,San Nicolás,equipos de audio,Access,160518,25306,7
+21/01/2022,Dallis Beefon,Ezpeleta,electrodomésticos,Millenium,124406,17653,7
+16/06/2022,Angelita Lambkin,Villa Crespo,notebook,Toshiba,153310,17447,10
+01/05/2022,Ursuline Castilla,Villa Soldati,electrodomésticos,Kensington,290406,20073,4
+08/04/2022,Angelita Lambkin,Recoleta,PC armada,Xiaomi,426953,21750,4
+28/01/2022,Arvin Bernhardi,Palermo,electrodomésticos,Synology,354218,20637,4
+28/06/2022,Humfried Woodberry,Chacarita,equipos de audio,Access,353695,23943,4
+23/06/2022,Juliet Glynne,Boedo,electrodomésticos,Belkin,318007,20023,9
+31/03/2022,Constantine Creeber,Ezpeleta,notebook,Toshiba,147070,23947,5
+07/03/2022,Juliet Glynne,Ezpeleta,PC armada,Digitus,149150,17240,7
+25/05/2022,Cecil Apted,Floresta,notebook,Netgear,155274,19202,10
+29/03/2022,Angelita Lambkin,Flores,TV,LG,204190,25031,3
+14/06/2022,Dallis Beefon,Boedo,electrodomésticos,Ubiquity,332611,21712,7
+15/02/2022,Cecil Apted,Villa Crespo,notebook,Millenium,386362,25072,4
+24/06/2022,Timmy Ashlin,Ezeiza,equipos de video,Samsung,415192,24177,8
+04/06/2022,Ursuline Castilla,San Nicolás,PC armada,Nord,389033,16844,7
+01/04/2022,Pennie Hess,Villa Soldati,notebook,Conceptronic,447769,23405,6
+01/01/2022,Humfried Woodberry,Villa Soldati,TV,Conceptronic,386682,20614,4
+02/06/2022,Dallis Beefon,Floresta,electrodomésticos,LG,279146,24935,8
+26/02/2022,Barde Benoist,Villa Crespo,PC armada,Access,274780,19291,6
+03/05/2022,Mufi Panchin,San Nicolás,equipos de video,Access,256406,22956,9
+25/01/2022,Cecil Apted,Paternal,electrodomésticos,Synology,287646,20343,4
+16/01/2022,Cecil Apted,Floresta,PC armada,Samsung,421186,21047,8
+25/05/2022,Barde Benoist,Ezeiza,equipos de audio,Kensington,399025,18616,5
+20/05/2022,Christel Zambonini,Recoleta,notebook,Vodafone,323255,20106,10
+01/04/2022,Humfried Woodberry,Floresta,equipos de audio,Conceptronic,447968,23004,8
+23/01/2022,Pennie Hess,Ezeiza,electrodomésticos,Ubiquity,447169,24333,4
+20/01/2022,Dorotea Brandolini,Floresta,PC armada,Xiaomi,427082,19097,7
+13/02/2022,Dallis Beefon,Boedo,equipos de audio,Nord,368346,20730,3
+23/03/2022,Ursuline Castilla,Palermo,TV,Toshiba,435689,19140,9
+15/03/2022,Humfried Woodberry,Paternal,notebook,Ubiquity,345167,21782,6
+11/01/2022,Humfried Woodberry,Chacarita,equipos de audio,Startech,269612,16695,7
+08/04/2022,Timmy Ashlin,Ezeiza,electrodomésticos,Digitus,127975,22670,8
+29/03/2022,Em Edmonson,San Martín,electrodomésticos,Millenium,202562,24659,7
+26/04/2022,Juliet Glynne,Chacarita,equipos de video,Kensington,390554,18202,5
+03/05/2022,Ursuline Castilla,Flores,TV,Samsung,325313,21033,7
+30/03/2022,Ursuline Castilla,Recoleta,equipos de video,Ubiquity,175346,17796,4
+07/02/2022,Cecil Apted,Flores,equipos de audio,Huawei,301564,16751,5
+13/04/2022,Barde Benoist,Villa Bosch,electrodomésticos,Startech,234226,21948,8
+05/06/2022,Arvin Bernhardi,Recoleta,TV,Huawei,306712,19794,6
+02/02/2022,Dorotea Brandolini,Avellaneda,PC armada,Netgear,189665,22912,10
+02/05/2022,Dallis Beefon,Boedo,PC armada,Kensington,372412,21521,6
+07/05/2022,Cecil Apted,Chacarita,notebook,Belkin,399865,19705,5
+01/04/2022,Dorotea Brandolini,Floresta,PC armada,LG,197363,19555,10
+18/06/2022,Angelita Lambkin,Villa Crespo,equipos de video,Digitus,228189,21078,10
+13/01/2022,Dorotea Brandolini,San Martín,PC armada,Ubiquity,365072,25172,8
+26/03/2022,Humfried Woodberry,Villa Soldati,PC armada,Access,432698,22234,9
+24/03/2022,Constantine Creeber,Ezpeleta,electrodomésticos,Toshiba,395294,19406,5
+24/01/2022,Angelita Lambkin,San Martín,equipos de video,Access,274474,21513,10
+15/02/2022,Barde Benoist,Villa Bosch,notebook,Huawei,393305,18520,8
+04/06/2022,Dorotea Brandolini,Ezeiza,electrodomésticos,Synology,278194,18323,7
+22/01/2022,Constantine Creeber,San Nicolás,equipos de audio,LG,281092,18997,8
+03/05/2022,Cecil Apted,Boedo,TV,Vodafone,414089,22251,4
+05/02/2022,Christel Zambonini,Paternal,TV,Ubiquity,303938,20440,8
+26/04/2022,Timmy Ashlin,Ezeiza,notebook,LG,214748,21525,3
+22/02/2022,Dorotea Brandolini,Paternal,TV,Engel,183415,16696,4
+25/05/2022,Pennie Hess,Paternal,TV,Vodafone,406622,17056,6
+19/05/2022,Christel Zambonini,Villa Crespo,notebook,Nord,250317,24151,7
+14/01/2022,Em Edmonson,Villa Bosch,TV,Ubiquity,362597,23236,5
+18/06/2022,Timmy Ashlin,Paternal,equipos de audio,Huawei,390892,17051,9
+06/03/2022,Christel Zambonini,San Nicolás,PC armada,Access,229582,20860,10
+04/01/2022,Dallis Beefon,Boedo,PC armada,Nord,396479,16909,7
+17/05/2022,Juliet Glynne,Paternal,electrodomésticos,Nord,400748,17302,4
+31/03/2022,Juliet Glynne,San Nicolás,PC armada,Millenium,434446,18692,3
+18/02/2022,Dallis Beefon,Floresta,equipos de audio,Ubiquity,172402,21725,6
+08/05/2022,Ursuline Castilla,Ezpeleta,TV,Access,220101,20182,8
+27/04/2022,Angelita Lambkin,San Martín,PC armada,Millenium,139995,19073,5
+29/01/2022,Dorotea Brandolini,Floresta,PC armada,Synology,239793,24395,5
+15/05/2022,Constantine Creeber,Ezpeleta,TV,Xiaomi,177669,16572,4
+08/04/2022,Constantine Creeber,Avellaneda,equipos de audio,Vodafone,331425,24220,7
+08/02/2022,Barde Benoist,Paternal,PC armada,Trust,319793,22345,9
+11/06/2022,Juliet Glynne,Ezeiza,PC armada,Toshiba,277313,20544,8
+06/04/2022,Pennie Hess,Boedo,TV,Conceptronic,365196,17729,10
+27/06/2022,Angelita Lambkin,San Martín,equipos de video,Engel,138937,22934,9
+24/02/2022,Em Edmonson,Recoleta,notebook,Access,162269,24021,3
+14/03/2022,Arvin Bernhardi,San Nicolás,equipos de video,Wacom,294393,24105,5
+06/01/2022,Dallis Beefon,Ezpeleta,equipos de audio,Access,143381,20486,9
+09/05/2022,Barde Benoist,Villa Bosch,TV,Huawei,251988,23644,3
+10/01/2022,Timmy Ashlin,Villa Crespo,equipos de audio,LG,362340,18212,6
+30/03/2022,Em Edmonson,Villa Crespo,notebook,Vodafone,203646,16606,3
+14/01/2022,Christel Zambonini,Avellaneda,equipos de video,Engel,117618,19180,5
+24/01/2022,Dallis Beefon,Avellaneda,equipos de audio,Xiaomi,256607,19295,9
+25/05/2022,Christel Zambonini,Ezpeleta,equipos de audio,Engel,324087,22224,3
+27/04/2022,Humfried Woodberry,Paternal,electrodomésticos,Samsonite,383750,19731,10
+12/02/2022,Christel Zambonini,Villa Bosch,notebook,Vodafone,449320,20214,9
+14/05/2022,Angelita Lambkin,Villa Crespo,TV,Xiaomi,211587,19607,3
+11/04/2022,Arvin Bernhardi,Villa Soldati,equipos de audio,Huawei,402531,19511,6
+11/02/2022,Constantine Creeber,Villa Soldati,TV,Wacom,414472,18837,7
+18/02/2022,Em Edmonson,Ezpeleta,notebook,LG,357965,21734,6
+16/06/2022,Timmy Ashlin,Flores,PC armada,Samsung,401091,21919,5
+10/04/2022,Cecil Apted,Ezpeleta,notebook,Huawei,251452,23109,3
+25/01/2022,Pennie Hess,Avellaneda,PC armada,Xiaomi,145780,25234,6
+28/04/2022,Christel Zambonini,Flores,equipos de audio,Belkin,114617,20556,5
+19/01/2022,Mufi Panchin,Recoleta,PC armada,Xiaomi,265057,23069,9
+05/06/2022,Dallis Beefon,Ezpeleta,equipos de video,Kensington,121426,21204,4
+29/01/2022,Cecil Apted,Villa Bosch,PC armada,Samsonite,340546,22225,10
+12/02/2022,Constantine Creeber,Floresta,electrodomésticos,Samsonite,408782,20349,5
+03/05/2022,Dorotea Brandolini,San Nicolás,PC armada,Access,151411,18316,7
+20/02/2022,Dallis Beefon,Palermo,PC armada,LG,132253,16748,5
+22/06/2022,Dorotea Brandolini,Paternal,electrodomésticos,Access,211315,19541,8
+10/02/2022,Timmy Ashlin,Palermo,PC armada,Access,146634,17150,8
+16/06/2022,Barde Benoist,Ezpeleta,electrodomésticos,Huawei,269829,19042,8
+17/06/2022,Timmy Ashlin,Floresta,electrodomésticos,Kensington,132077,20401,7
+01/01/2022,Constantine Creeber,Floresta,equipos de video,Conceptronic,264834,21140,8
+15/02/2022,Constantine Creeber,Avellaneda,PC armada,Wacom,146856,17191,3
+19/02/2022,Cecil Apted,San Martín,TV,Digitus,245869,22186,8
+27/04/2022,Cecil Apted,Avellaneda,equipos de video,Ubiquity,264471,19787,9
+19/04/2022,Cecil Apted,Ezpeleta,equipos de audio,Huawei,120654,16696,8
+30/01/2022,Angelita Lambkin,San Nicolás,equipos de video,Access,163927,20933,4
+28/05/2022,Em Edmonson,Floresta,equipos de video,Ubiquity,368788,20758,5
+13/02/2022,Arvin Bernhardi,Boedo,equipos de video,LG,258935,21330,10
+31/01/2022,Humfried Woodberry,San Martín,TV,Millenium,395583,17743,3
+18/05/2022,Barde Benoist,Ezeiza,notebook,Xiaomi,313634,23430,9
