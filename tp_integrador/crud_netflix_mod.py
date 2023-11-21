@@ -2,9 +2,35 @@ import sqlite3 as sq3
 import tkinter as tk
 from tkinter import messagebox, ttk
 
+
+class Tabla():
+    def __init__(self,root,resultado,edit):
+        nombre_cols=['type','title_content','director','country',
+                    'release_year','rating','duration','listed_in']
+        self.root=root
+        self.frameppal=tk.Frame(root)
+        self.frameppal.pack(fill='both')
+        self.edit=edit
+        for i in range(len(resultado[0])):
+            e=tk.Entry(self.frameppal)
+            e.config(bg='black',fg='white')
+            e.grid(row=0,column=i)
+            e.insert(tk.END,nombre_cols[i])
+        for fila in range(len(resultado)):
+            for col in range(len(resultado[0])):
+                e=tk.Entry(self.frameppal)
+                e.grid(row=fila,column=col)
+                if resultado[fila][col] is not None:
+                    e.insert(tk.END,resultado[fila][col])
+                else:
+                    e.insert(tk.Entry,'')
+                if(self.edit==False):
+                    e.config(state='readonly')
+                else:
+                    e.config(state='normal')
 '''
 ************************************
-          FUNCIONES VARIAS
+        FUNCIONES VARIAS
 ************************************
 '''
 # FUNCIONES VARIAS INTERFAZ GRÁFICA:
@@ -241,8 +267,27 @@ def crear():
         mensaje_noconectado()
         return
     formularios=[
-
+        (type.get(),'Tipo'),
+        (title_content.get(),'Título'),
+        (director.get(),'Director'),
+        (country.get(),'País'),
+        (rating.get(),'Calificación'),
+        (duration.get(),'Duración'),
+        (listed_in.get(),'Género')
     ]
+    for campo, campo_str in formularios:
+        if (campo == '' or campo=='Selecione...'):
+            messagebox.showwarning('Campo vacío',f'Por favor, complete el campo {campo_str}')
+    try:
+        query_insert=f'''INSERT INTO content (type,title_content,director,country,release_year,duration,
+                        listed_in) VALUES (?,?,?,?,?,?,?,?)'''
+        values=(type.get(),title_content.get(),director.get(),country.get(),release_year.get(),duration.get(),listed_in.get())
+        cur.execute(query_insert,values)
+        conn.commit()
+        messagebox.showinfo('Registro agregado','El nuevo registro se ha agregado correctamente.')
+        limpiar()
+    except sq3.Error as err:
+        messagebox.showerror('ERROR',f'Error al crear el registro: {str(err)}')
 
 # #   READ
 def leer_general():
@@ -263,8 +308,20 @@ def leer_general():
             frameppal=tk.Frame(root2)
             frameppal.pack(fill='both')
             framecerrar= tk.Frame(root2)
-    except:
-        pass
+            framecerrar.config(bg=color_texto_boton)
+            framecerrar.pack(fill='both')
+
+            boton_cerrar=tk.Button(framecerrar,text='CERRAR',command=root2.destroy)
+            boton_cerrar.config(bg=color_fondo_boton,fg=color_texto_boton,pady=10,padx=0)
+            boton_cerrar.pack(fill='both')
+            tabla=Tabla(frameppal,resultado,False)
+            limpiar()
+            root2.mainloop()
+        else:
+            messagebox.showwarning('No se encontraron resultados','No se encontraron registros que coincidan con la búsqueda.')
+            limpiar()
+    except sq3.Error as err:
+        messagebox.showerror('ERROR',f'Error al buscar el registro: {str(err)}')
 
 # #   UPDATE
 def actualizar():
@@ -272,6 +329,25 @@ def actualizar():
     if not is_check_conn:
         mensaje_noconectado()
         return
+    title = title_content.get()
+    if(title==''):
+        messagebox.showwarning('Campo vacío','Por favor, complete correctamente.')
+        return
+    try:
+        query_buscar=f'SELECT type, title_content,director,country,release_year,rating,duration,listed_in FROM content WHERE title_content LIKE {title}'
+        cur.execute(query_buscar)
+        resultado=cur.fetchall()
+        if resultado:
+            root2=tk.Tk()
+            root2.title('Actualización')
+            frameppal=tk.Frame(root2)
+            frameppal.pack(fill='both')
+            framebotones=tk.Frame(root2)
+            framebotones.config(bg=color_texto_boton)
+            framebotones.pack(fill='both')
+
+    except:
+        pass
 
 # #   DELETE
 def borrar():
@@ -279,10 +355,11 @@ def borrar():
     if not is_check_conn:
         mensaje_noconectado()
         return
+    
 
 '''
 *********************************
-       INTERFAZ GRÁFICA
+    INTERFAZ GRÁFICA
 *********************************
 '''
 # framebotones
@@ -353,6 +430,7 @@ flotante = DoubleVar()  # Declara variable de tipo flotante
 cadena = StringVar()  # Declara variable de tipo cadena
 booleano = BooleanVar()  # Declara variable de tipo booleana
 '''
+
 list_type = list_campo('type')
 list_director = list_campo('director')
 list_country = list_campo('country')

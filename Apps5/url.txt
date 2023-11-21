@@ -1,0 +1,2 @@
+url de donde veo el login de tkinter
+https://www.youtube.com/watch?v=fDyO2vKrSfw&t=21s
