@@ -50,6 +50,9 @@ def limpiar():
 def crear():
     pass
 
+def buscar():
+    pass
+
 def actualizar():
     pass
 
@@ -63,11 +66,11 @@ def eliminar():
 **********************************************************************************
 '''
 # Colores framecampos:
-fondo = 'SkyBlue1'
-fondo_letra = 'RoyalBlue1'
+fondo = 'gray9'
+fondo_letra = 'MediumPurple3'
 # Colores framebotones
-fondo_framebotonoes = 'LightGoldenrod1'
-color_boton = 'gray11'
+fondo_framebotonoes = 'gray15'
+color_boton = 'MediumPurple3'
 letra_boton = fondo_framebotonoes
 
 # ----------------------------------
@@ -91,6 +94,10 @@ csvmenu.add_command(label='Salir',command=salir)
 # MENU LIMPIAR Y COMANDOS
 limpiarmenu = Menu(barramenu,tearoff=0)
 limpiarmenu.add_command(label='Limpiar casillas',command=limpiar)
+
+# CASCADAS
+barramenu.add_cascade(label='CSV',menu=csvmenu)
+barramenu.add_cascade(label='Limpieza',menu=limpiarmenu)
 
 #-----------------------------------------------------------------
 #---------------------------FRAMECAMPOS---------------------------
@@ -147,5 +154,53 @@ def config_label(mi_label,fila):
     mi_label.grid(row=fila,**espaciado_label)
     mi_label.config(**colores)
 
+nombre_label = Label(framecampos,text='Nombre:')
+config_label(nombre_label,0)
+
+sexo_label = Label(framecampos,text='Sexo:')
+config_label(sexo_label,1)
+
+origen_label = Label(framecampos,text='Origen:')
+config_label(origen_label,2)
+
+significado_label = Label(framecampos,text='Significado:')
+config_label(significado_label,3)
+
+#----------------------------------------------------------------------
+#---------------------------FRAMEBOTONES-------------------------------
+#----------------------------------------------------------------------
+
+framebotones = Frame(root)
+framebotones.config(bg=fondo_framebotonoes)
+framebotones.pack(fill='both')
+
+def config_buttons(mi_button,columna):
+    espaciado_buttons={'row':0,'padx':5,'pady':5,'ipadx':12}
+    mi_button.config(bg=color_boton,fg=letra_boton)
+    mi_button.grid(column=columna,**espaciado_buttons)
+
+boton_crear = Button(framebotones,text='Crear',command=crear)
+config_buttons(boton_crear,0)
+
+boton_buscar = Button(framebotones,text='Buscar',command=buscar)
+config_buttons(boton_buscar,1)
+
+boton_actualizar = Button(framebotones,text='Actualizar',command=actualizar)
+config_buttons(boton_actualizar,2)
+
+boton_eliminar = Button(framebotones,text='Eliminar',command=eliminar)
+config_buttons(boton_eliminar,3)
+
+#--------------------------------------------------------------------
+#---------------------------FRAME COPY-------------------------------
+#--------------------------------------------------------------------
+
+framecopy = Frame(root)
+framecopy.config(bg='black')
+framecopy.pack(fill='both')
+
+copylabel = Label(framecopy,text='Todos los derechos y zurdos bien puestos.')
+copylabel.config(bg='black',fg='white')
+copylabel.grid(row=0,column=0,padx=10,pady=10)
 
 root.mainloop()
