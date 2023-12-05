@@ -31,5 +31,3 @@ def read_database():
         if is_conn:
             close_connection()
             print('Se ha cerrado la conexión.')
-
-read_database()

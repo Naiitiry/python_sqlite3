@@ -26,6 +26,7 @@ def salir():
         con.close()
         root.destroy()
 
+
 # GRÁFICAS
 # Por escuelas
 def alumnos_en_escuelas():
