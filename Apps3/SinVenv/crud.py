@@ -83,7 +83,7 @@ def acerca_de():
 
 def listar():
     class Tabla():
-        def __init__(self,raiz2):
+        def __init__(self,root2):
             nombre_cols = ['Legajo','Apellido','Nombre','Promedio','Escuela']
             # CREAMOS LAS COLUMNAS DE LA NUEVA VENTANA
             for i in range(cant_cols):
