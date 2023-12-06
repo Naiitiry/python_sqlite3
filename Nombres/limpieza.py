@@ -185,7 +185,7 @@ def crear():
 resultados_busqueda=None
 def buscar_nombre():
     global resultados_busqueda
-    buscando_nombre = simpledialog.askstring('Buscar por nombre','Ingrese el nombre a buscar:')
+    buscando_nombre = nombre_input.get().upper()
     if buscando_nombre is not None and buscando_nombre in df['NOMBRE'].values:
         resultados_busqueda = df[df['NOMBRE']==buscando_nombre]
         mostrar_resultados()
@@ -200,7 +200,7 @@ def mostrar_resultados():
 
     #Agregamos resultados a la lista
     for _,row in resultados_busqueda.iterrows():
-        texto_resultados.insert(END, f"{row['NOMBRE']}, {row['SEXO']}, {row['ORIGEN']}, {row['SIGNIFICADO']}")
+        texto_resultados.insert(END, f"{row['NOMBRE']},\n {row['SEXO']},\n {row['ORIGEN']},\n {row['SIGNIFICADO']}")
 
     def on_select(event):
         #Obtener índice seleccionado
@@ -219,10 +219,35 @@ def mostrar_resultados():
     root_resultado.mainloop()
 
 def actualizar():
-    pass
+    nombre_a_actualizar = nombre_input.get().upper()
+    if nombre_a_actualizar in df['NOMBRE'].values:
+        indice=df[df['NOMBRE']==nombre_a_actualizar].index[0]
+        df.at[indice,'SEXO']=sexo.get()
+        df.at[indice,'ORIGEN']=origen.get()
+        df.at[indice,'SIGNIFICADO']=significado.get()
+
+        # GUARDAMOS EN EL ARCHIVO LO QUE TOMAN LOS ENTRYS
+        df.to_csv(ruta_archivo,index=False,sep=';')
+        messagebox.showinfo('ÉXITO','Registro actualizado!')
+    else:
+        messagebox.showerror('Error','El nombre no existe en el archivo CSV.')
 
 def eliminar():
-    pass
+    global df
+    try:
+        nombre_a_eliminar = nombre.get()
+        if nombre_a_eliminar:
+            if nombre.get() and sexo.get() and origen.get() and significado.get():
+                #Elimino el nombre excluyendolo del df.
+                df=df[df['NOMBRE']!=nombre_a_eliminar]
+                # Guardo el nuevo df en el csv
+                df.to_csv(ruta_archivo,index=False,sep=';')
+                messagebox.showinfo('ÉXITO','Registro eliminado.')
+                limpiar()
+        else:
+            messagebox.showwarning('ADVERTENCIA','Por favor, busque un nombre a eliminar.')
+    except Exception as e:
+        messagebox.showerror('ERROR',f'Ocurrió un error: {str(e)}')
 
 '''
 **********************************************************************************
