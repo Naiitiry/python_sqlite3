@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 from tkinter import *
 from tkinter import messagebox, filedialog, ttk
 
@@ -19,10 +20,12 @@ def csv_connect():
             messagebox.showinfo('ÉXITO','csv cargado exitosamente.')
             # Actualizamos las opciones del desplegable
             categoria = ['Todas']+df['categoria'].unique().tolist()
-            cocina = ['Todas']+df['cocina'].unique().tolist
+            cocina = ['Todas']+df['cocina'].unique().tolist()
+            # Configuramos valores iniciales de los desplegables
             categoria_entry['values']=categoria
             categoria_entry.set('Todas')
-            cocina_entry['values']=categoria
+
+            cocina_entry['values']=cocina
             cocina_entry.set('Todas')
         else:
             messagebox.showerror('ERROR','El archivo cargado es incorrecto.')
@@ -54,9 +57,6 @@ def limpiar():
     codigo_postal_arg.set("")
     
 
-def listar():
-    pass
-
 # ----------------------------------------------
 # ------------------ CRUD ----------------------
 # ----------------------------------------------
@@ -65,27 +65,77 @@ def crear():
     global df
 
 
-def buscar_categoria():
-    global ruta_archivo
+def filtrar_cocina(event):
     categoria_seleccionada = categoria_entry.get()
-    cocina_seleccionada = cocina_entry.get()
+    
+    if categoria_seleccionada == 'Todas':
+        # Si se elige 'Todas', mostrar todas las cocinas
+        cocina_entry['values'] = ['Todas'] + df['cocina'].unique().tolist()
+        cocina_entry.set('Todas')  # Reiniciar la selección
+    else:
+        # Filtrar las cocinas según la categoría seleccionada
+        cocinas_filtradas = ['Todas'] + df[df['categoria'] == categoria_seleccionada]['cocina'].unique().tolist()
+        cocina_entry['values'] = cocinas_filtradas
+        cocina_entry.set('Todas')  # Reiniciar la selección
 
-    # Filtramos DataFrame
-    df_filtrado = ruta_archivo
-    if categoria_seleccionada != "Todas":
-        df_filtrado = df_filtrado[df_filtrado['categoria']==categoria_seleccionada]
-    if cocina_seleccionada != "Todas":
-        df_filtrado = df_filtrado[df_filtrado['cocina'] == cocina_seleccionada]
+def mostrar_resultados():
+    global df
+    # Crear una ventana de resultados
+    ventana_resultados = Toplevel(root)
+    ventana_resultados.title('Resultados de búsqueda')
 
-    # Actualizar la lista de resultados
-    texto_resultado.config(state='normal')
-    texto_resultado.delete("1.0",END)
-    texto_resultado.insert(END,df_filtrado.to_string(index=False))
-    texto_resultado.config(state='disabled')
+    # Configurar columnas a mostrar
+    columnas_mostrar = ['nombre', 'categoria', 'cocina',
+                        'telefono', 'direccion_completa','barrio']
 
+    # Crear un treeview para mostrar los resultados
+    tree = ttk.Treeview(ventana_resultados,columns=columnas_mostrar,show='headings')
 
-def buscar_cocina():
-    pass
+    # Configurar encabezados de columna
+    for col in columnas_mostrar:
+        tree.heading(col, text=col)
+        tree.column(col, width=100)  # Ajusta el ancho según sea necesario
+
+    # Paginación
+    registros_x_pag = 10
+    pagina_actual = 0
+
+    def cargar_registros():
+        inicio = pagina_actual * registros_x_pag
+        fin = inicio + registros_x_pag
+
+        # Limpiar registros anteriores
+        for item in tree.get_children():
+            tree.delete(item)
+        
+        # Inserta datos en el treeview
+        for _,row in df.iloc[inicio:fin].iterrows():
+            valores_fila = [row[col] for col in columnas_mostrar]
+            tree.insert("","end",values=tuple(valores_fila))
+    
+    def pagina_anterior():
+        nonlocal pagina_actual
+        if pagina_actual>0:
+            pagina_actual -= 1
+            cargar_registros()
+    
+    def pagina_siguiente():
+        nonlocal pagina_actual
+        total_paginas = -(-len(df)//registros_x_pag)
+        if pagina_actual < total_paginas - 1:
+            pagina_actual += 1
+            cargar_registros()
+            
+    # Cargargar registros
+    cargar_registros()
+
+    tree.pack(expand=YES, fill=BOTH)
+    # Botones de paginación
+    btn_anterior = Button(ventana_resultados, text='Anterior', command=pagina_anterior)
+    btn_anterior.pack(side='left')
+
+    btn_siguiente = Button(ventana_resultados, text='Siguiente', command=pagina_siguiente)
+    btn_siguiente.pack(side='right')
 
 def actualizar():
     pass
@@ -122,7 +172,6 @@ root.config(menu=barramenu)
 # MENU CSV Y COMANDOS
 csv_menu = Menu(barramenu,tearoff=0) #tearoff sacamos las líneas puntuadas
 csv_menu.add_command(label='Abrir CSV',command=csv_connect)
-csv_menu.add_command(label='Mostrar listado de restaurant/bar',command=listar)
 
 # MENU PARA LIMPIAR Y COMANDOS
 limpiar_menu = Menu(barramenu,tearoff=0)
@@ -178,6 +227,7 @@ categoria=['Todas']
 categoria_entry = ttk.Combobox(frame_campos,values=categoria)
 categoria_entry.set("Todas")
 categoria_entry.grid(row=0,column=1,ipady=5,padx=10)
+categoria_entry.bind('<<ComboboxSelected>>',filtrar_cocina)
 
 cocina_label = Label(frame_campos,text='Cocina:')
 cocina_label.grid(row=0,column=2,padx=10,pady=10)
@@ -186,6 +236,10 @@ cocina_entry = ttk.Combobox(frame_campos,values=cocina)
 cocina_entry.set("Todas")
 cocina_entry.grid(row=0,column=3,ipady=5,padx=10)
 
+
+# BOTONES
+btn_mostrar_resultados = Button(frame_campos, text='Mostrar Resultados', command=mostrar_resultados)
+btn_mostrar_resultados.grid(row=0, column=5, padx=10)
 
 
 root.mainloop()
