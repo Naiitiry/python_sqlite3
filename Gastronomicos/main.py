@@ -64,22 +64,26 @@ def limpiar():
 def crear():
     global df
 
+df_filtrado=pd.DataFrame()
 
 def filtrar_cocina(event):
+    global df_filtrado
     categoria_seleccionada = categoria_entry.get()
     
     if categoria_seleccionada == 'Todas':
         # Si se elige 'Todas', mostrar todas las cocinas
+        df_filtrado = df.copy()
         cocina_entry['values'] = ['Todas'] + df['cocina'].unique().tolist()
         cocina_entry.set('Todas')  # Reiniciar la selección
     else:
         # Filtrar las cocinas según la categoría seleccionada
-        cocinas_filtradas = ['Todas'] + df[df['categoria'] == categoria_seleccionada]['cocina'].unique().tolist()
+        df_filtrado = df[df['categoria']==categoria_seleccionada].copy()
+        cocinas_filtradas = ['Todas'] + df_filtrado['cocina'].unique().tolist()
         cocina_entry['values'] = cocinas_filtradas
         cocina_entry.set('Todas')  # Reiniciar la selección
 
 def mostrar_resultados():
-    global df
+
     # Crear una ventana de resultados
     ventana_resultados = Toplevel(root)
     ventana_resultados.title('Resultados de búsqueda')
